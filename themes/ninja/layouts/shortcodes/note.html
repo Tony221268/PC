@@ -1,9 +1,0 @@
-<script>
-    $(document).ready(function(){
-      $('[data-bs-toggle="popover-{{ .Get `popTitle` }}"]').popover();
-    });
-</script>
-
-
-<a tabindex="0" class="btn btn-info" role="button" data-bs-toggle="popover-{{ .Get `popTitle` }}" title="{{ .Get `popTitle` }}" data-bs-content="{{ .Inner }}">{{ .Get `popTitle` }}</a>
-

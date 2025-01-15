@@ -1,17 +1,13 @@
 {
-  "name": "Improvement Log",
-  "short_name": "ImpLog",
-  "description": "Improvement Log - Track and Document Progress",
+  "name": "Palette Couleus",
+  "short_name": "PC",
+  "description": "Pelette Couleurs",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "icons": [
-    {
-      "src": "/icon.svg",
-      "type": "image/svg+xml",
-      "sizes": "any"
-    },
+
     {
       "src": "/favicon.ico",
       "sizes": "48x48",
