@@ -1,0 +1,17 @@
+{{ define "main" }}
+{{partial "pagewrapper/navbar" .}}
+<section class="bg-success container-fluid">
+    <section class="container py-5">
+        <div class="row pt-5">
+            <div class="col-12  container-fluid">
+                <h1>{{ .Title }}</h1>
+                {{ .Content }}
+                {{ range .Pages }}
+                    <h5><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h5>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+</section>
+{{ partial "pagewrapper/footer" . }}
+{{ end }}

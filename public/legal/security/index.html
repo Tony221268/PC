@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description"
+    content="" />
+  <title>Improvement Log Data Security and GDPR</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" href="/scss/styles.min.ee15138a0510904232076f29de41530072d88716a36582d6295e117307cb6611.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+<meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+   
+   <script>(function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+      'gtm.start':
+        new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'dataLayer', 'GTM-P2J35DZ');</script>
+
+</head>
+    <body id="terms">
+        <div id="content" class="h-100 bg-light">
+        
+ <script>
+    $(document).ready(function() {
+        $('li.active').removeClass('active').removeAttr('aria-current');
+        $('a[href="' + location.pathname + '"]').closest('li').addClass('active').attr('aria-current', 'page'); 
+        $('li.active a').removeClass('text-white').addClass('text-info');
+  });
+ </script>
+
+<nav class="py-2 target navbar navbar-expand-lg bg-primary text-white container-fluid d-flex align-items-center z-depth-0">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-middle" href="">
+            <img src="/img/logo.png" alt="..." height="40" class="my-auto"> <span class="ps-3 text-white" id="logo"><span class="text-info">pdca</span> software</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="ms-auto navbar-nav mb-2 mb-lg-0">
+  
+
+    
+        
+                <li class='nav-item ps-5'>
+                    <a class='nav-link text-white' href="/">
+                        
+                        <span>Quick Tour</span>
+                    </a>
+                </li>
+        
+    
+        
+                <li class='nav-item ps-5'>
+                    <a class='nav-link text-white' href="/pricing/">
+                        
+                        <span>Pricing</span>
+                    </a>
+                </li>
+        
+    
+        
+                <li class='nav-item ps-5'>
+                    <a class='nav-link text-white' href="/support/">
+                        
+                        <span>Support</span>
+                    </a>
+                </li>
+        
+    
+        
+                <li class='nav-item ps-5'>
+                    <a class='nav-link text-white' href="http://my.pdca.software/signup?language=EN">
+                        
+                        <span>Free trial</span>
+                    </a>
+                </li>
+        
+    
+                <li class="nav-item dropdown ps-5">
+                    <a class="nav-link text-white dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Language
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/" onclick='setCookie("language","EN", 30)'>EN</a></li>
+                        <li><a class="dropdown-item" href="/fr" onclick='setCookie("language","FR", 30)'>FR</a></li>
+                        <li><a class="dropdown-item" href="/es" onclick='setCookie("language","ES", 30)'>ES</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container py-5">
+    <div class="row">
+        <div class="col">
+            <h1 class="pb-3">Data Security and GDPR</h1>
+            <p><p>For definitions of words used within and general limits and exclusions to this policy, please refer to the definitions contained in our <a href="/terms">terms of use</a>.</p>
+<p>When you sign up to use the Service provided by us, we follow this data processing and protection policy. Your agreement to this policy forms part of our <a href="/terms">terms of use</a> for the Service.  As with our terms, we may update or change this policy at our own discretion and at any time.</p>
+<p>When we process customer data we apply the following data processing and protection policy. We process business-related data on your behalf only for the purposes set out below and in the context of the Service and only when acting on your instructions.</p>
+<h2 id="about-this-policy">About this Policy</h2>
+<p>As a software supplier we insist that you, along with ourselves, comply with relevant data law such as GDPR. We collectively have a joint responsibility to process and control data in accordance with EU law and to respect the rights of any third party.</p>
+<h2 id="information-about-the-data">Information about the Data</h2>
+<h6 id="subject">Subject</h6>
+<p>The subject our our processing is only your lawfully acquired data used for business purposes.</p>
+<h6 id="duration">Duration</h6>
+<p>Our processing will be limited to the duration of your use of our Service and at the end of this period all data shall be either returned to you and / or subsequently destroyed within a reasonable time period.</p>
+<h6 id="purpose-of-processing">Purpose of Processing</h6>
+<p>The purpose of processing is to help your organization to improve.</p>
+<h6 id="the-nature-of-processing">The Nature of Processing</h6>
+<p>The Service is a software and database system used by you to help manage your organization.</p>
+<h6 id="data-subjects">Data Subjects</h6>
+<p>These may include data about your clients, prospective clients, associates and employees so long as you have a legal right to ask us to process such data.</p>
+<h6 id="customer-data">Customer Data</h6>
+<p>Data being processed may include the following types of data: names, telephone numbers, address, email addresses and other information not considered high-risk under the terms of GDPR.</p>
+<h6 id="limit-of-processing-scope">Limit of Processing Scope</h6>
+<p>We do not knowingly process data except according to the above criteria and we monitor our systems from time to time to check that this is the case.</p>
+<h2 id="processor-and-controller">Processor and Controller</h2>
+<p>For the purposes of data protection law, yous are data controllers and we are the data processor.</p>
+<h6 id="we-as-processor">We, as Processor</h6>
+<ul>
+<li>We process personal data only in accordance with the terms of our terms and conditions and with your instructions (provided that such instructions are legal and in accordance with this policy).</li>
+<li>We keep a record of data processing carried out on your behalf.</li>
+<li>We cooperate with supervisory authorities and comply with requests from individuals exercising their rights under data protection legislation.</li>
+<li>We implement any appropriate security measures required by data protection legislation.</li>
+<li>We allow and comply with audits of our data protection practices requested by you.</li>
+<li>We have appointed a data protection officer.</li>
+<li>We comply with rules about data storage being located within the EU.</li>
+<li>We will tell you about any personal data breaches as soon as we know about them.</li>
+<li>We will let you know if you ask us to do something that in our opinion is against data protection law or this policy.</li>
+</ul>
+<h6 id="you-as-controllers">You as Controllers</h6>
+<ul>
+<li>We insist that all personal data provided by you shall have been lawfully obtained and retained and that we can legally process it.</li>
+<li>We insist that in asking us to process data (knowingly or not), you are not asking us to contravene any data protection legislation or infringe the rights of the data subject or any third party.</li>
+<li>We insist that the scope, nature and purpose of processing is always limited to those set out in this policy, our terms of use and any agreement we have with you.</li>
+<li>You must let us know in advance of submitting sensitive data for processing or data requiring high-risk processing (as defined by data protection legislation) and you must not submit such data for processing until we give explicit written permission to do so.</li>
+</ul>
+<h6 id="sub-processors">Sub-processors</h6>
+<p>We may use sub-processors from time to time and we have listed our current sub-processors below:</p>
+<ul>
+<li>Amazon Web Services Inc, Seattle, WA, United States</li>
+</ul>
+<p>We will update this policy if we intend to appoint any third party as a new sub-processor of data not already listed above and we shall always require that processor to adhere to the standard set out in the current version of this policy.</p>
+</p>
+        </div>
+    </div>
+</div>
+
+        </div>
+        <div class="container-fluid bg-dark py-3 filtershadow">
+    <div id="footer" class="container">
+        <div class="text-white row py-4">
+            <div class='col'>
+                <p class="pb-1 "><a class="text-white" href="/tts/">&copy; 2023 <span itemProp="name ">Triplet Limited</span></a></p>
+                <p class="pb-1 "><a class="text-white" href="/legal/terms/">Terms</a></p>
+                <p class="pb-1 "><a class="text-white" href="/legal/security/">Data security and GDPR</a></p>
+                <p class="pb-1 "><a class="text-white" href="/legal/cookies/">Cookie Policy</a></p>        
+                <p class="pt-3 pb-1 "><a class="text-secondary" href='https://www.freepik.com/free-photos-vectors/background'>Vectors: rawpixel.com - www.freepik.com</a></p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
+<script src="/js/scripts.js"></script>
+
+
+    </body>
+</html>

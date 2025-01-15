@@ -1,0 +1,14 @@
+{{ $size := .Params.logoSize }}
+
+<div class="col col-lg-6 col-xxl-4 d-flex align-items-stretch mb-4">
+    <div class="card border-primary feature-card bg-light">
+        <div class="card-header bg-light">
+            <div class="d-flex justify-content-center">{{ partial "widgets/logo" (dict "context" . "size" $size )}}
+            </div>
+        </div>
+        <div class="card-body">
+            <h5 class="font-weight-light">{{ .Title }}</h5>
+            <p class="font-weight-light">{{ .Content }}</p>
+        </div>
+    </div>
+</div>

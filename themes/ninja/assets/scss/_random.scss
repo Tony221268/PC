@@ -1,0 +1,32 @@
+/**********************************************
+Random
+**********************************************/
+/*
+A kind of reset
+*/
+
+
+.body {
+    padding-top: 86px;
+    z-index: 1;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*PC*/
+.wrap {
+    max-width: 100vw;
+    margin: 0 auto;
+  }
+  .glide__slide {
+    border: 1px solid black;
+    line-height: 90vh;
+    margin: 0;
+    text-align: center;
+  }
+
+  .glide__slide h2{
+  line-height: 90vh;
+  }

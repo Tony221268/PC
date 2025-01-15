@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang='fr'>
+    <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description"
+    content="" />
+  <title>Improvement Log Mon Espace</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" href="/scss/styles.min.ee15138a0510904232076f29de41530072d88716a36582d6295e117307cb6611.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+<meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+   
+   <script>(function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+      'gtm.start':
+        new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'dataLayer', 'GTM-P2J35DZ');</script>
+
+</head>
+    <body id="">
+        <div id="content" class="h-100 bg-light">
+        
+ <script>
+    $(document).ready(function() {
+        $('li.active').removeClass('active').removeAttr('aria-current');
+        $('a[href="' + location.pathname + '"]').closest('li').addClass('active').attr('aria-current', 'page'); 
+        $('li.active a').removeClass('text-white').addClass('text-info');
+  });
+ </script>
+
+<nav class="py-2 target navbar navbar-expand-lg bg-primary text-white container-fluid d-flex align-items-center z-depth-0">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-middle" href="">
+            <img src="/img/logo.png" alt="..." height="40" class="my-auto"> <span class="ps-3 text-white" id="logo"><span class="text-info">pdca</span> software</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="ms-auto navbar-nav mb-2 mb-lg-0">
+  
+
+    
+        
+                <li class='nav-item ps-5'>
+                    <a class='nav-link text-white' href="/fr/">
+                        
+                        <span>Accueil</span>
+                    </a>
+                </li>
+        
+    
+        
+                <li class='nav-item ps-5'>
+                    <a class='nav-link text-white' href="/fr/pricing/">
+                        
+                        <span>Tarifs</span>
+                    </a>
+                </li>
+        
+    
+        
+                <li class='nav-item ps-5'>
+                    <a class='nav-link text-white' href="/fr/support/">
+                        
+                        <span>Support</span>
+                    </a>
+                </li>
+        
+    
+        
+                <li class='nav-item ps-5'>
+                    <a class='nav-link text-white' href="http://my.pdca.software/signup?language=FR">
+                        
+                        <span>Essai gratuit</span>
+                    </a>
+                </li>
+        
+    
+                <li class="nav-item dropdown ps-5">
+                    <a class="nav-link text-white dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Langue
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/" onclick='setCookie("language","EN", 30)'>EN</a></li>
+                        <li><a class="dropdown-item" href="/fr" onclick='setCookie("language","FR", 30)'>FR</a></li>
+                        <li><a class="dropdown-item" href="/es" onclick='setCookie("language","ES", 30)'>ES</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<section class="container supportPage py-5">
+   <div class="row">
+      <div class="col-lg-8 bg-white z-depth-3 p-5">
+         <h5 class="mb-3 pe-5 text-uppercase"><span class="text-secondary">Aide avec Mon Espace
+            </span>
+            <hr />
+         </h5>
+         <p><p>Mon Espace est une zone où vous pouvez gérer :</p>
+<ul>
+<li>Le statut de votre compte (essai ou actif) et le niveau de prix.</li>
+<li>Les utilisateurs</li>
+<li>la sécurité</li>
+<li>Vos méthodes de paiement</li>
+</ul>
+<p>Vous pouvez également contacter notre équipe au sujet d&rsquo;une équipe spécifique en utilisant la fonction de contact.</p>
+<p class="p-2 col border-rounded bg-info font-weight-bold">
+    -> Allez dans l'option de menu Mon compte (en haut à droite) et choisissez l'une des options à explorer.
+</p>
+</p>
+         <p><span class="text-secondary">TAGS:</span> intro account </p>
+      </div>
+
+      <div class="col-4 ps-5">
+         <h5 class="mb-3 pe-5 text-uppercase"><span class="text-secondary">Recherche </span>
+            <hr />
+         </h5>
+         
+<div>
+  <form action="/fr/search">
+    <input id="search-query" name="s"/>
+    <button type="submit">Recherche</button>
+  </form>
+</div>
+
+      </div>
+
+   </div>
+</section>
+
+        </div>
+        <div class="container-fluid bg-dark py-3 filtershadow">
+    <div id="footer" class="container">
+        <div class="text-white row py-4">
+            <div class='col'>
+                <p class="pb-1 "><a class="text-white" href="/tts/">&copy; 2023 <span itemProp="name ">Triplet Limited</span></a></p>
+                <p class="pb-1 "><a class="text-white" href="/fr/legal/terms/">Conditions d&#39;utilisation</a></p>
+                <p class="pb-1 "><a class="text-white" href="/fr/legal/security/">Sécurité des données et RGPD</a></p>
+                <p class="pb-1 "><a class="text-white" href="/fr/legal/cookies/">Politique de cookies</a></p>        
+                <p class="pt-3 pb-1 "><a class="text-secondary" href='https://www.freepik.com/free-photos-vectors/background'>Vectors: rawpixel.com - www.freepik.com</a></p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
+<script src="/js/scripts.js"></script>
+
+
+    </body>
+</html>

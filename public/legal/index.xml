@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Legals on PDCA Software</title>
+    <link>/legal/</link>
+    <description>Recent content in Legals on PDCA Software</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 17 Nov 2021 14:19:00 +0100</lastBuildDate><atom:link href="/legal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cookie Policy</title>
+      <link>/legal/cookies/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/legal/cookies/</guid>
+      <description>YouTube To allow the embedding of Youtube videos on our site we are obliged to allow Google to set cookies. Even their no-cookie option sets a cookie. There is no way around this that we know of, sorry.
+Google Analytics As is the case with most sites, we also collect analytical data for Google Analytics through Google Tag manager.
+We don’t set any other marketing cookies.</description>
+    </item>
+    
+    <item>
+      <title>Data Security and GDPR</title>
+      <link>/legal/security/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/legal/security/</guid>
+      <description>For definitions of words used within and general limits and exclusions to this policy, please refer to the definitions contained in our terms of use.
+When you sign up to use the Service provided by us, we follow this data processing and protection policy. Your agreement to this policy forms part of our terms of use for the Service. As with our terms, we may update or change this policy at our own discretion and at any time.</description>
+    </item>
+    
+    <item>
+      <title>Terms and Conditions</title>
+      <link>/legal/terms/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/legal/terms/</guid>
+      <description>Below are the terms and conditions for using &amp;ldquo;PDCA Software&amp;rdquo; available at https://www.pdca.software.
+A few definitions In these terms: “Company”, “we”, “our”, or “us” refers to Triplet Limited, a Company registered in England number.
+“You” or “your”, refers to the people or organizations that have an account to use our Service.
+“Service” means all those Service accessed via the Internet domain &amp;ldquo;pdca.software&amp;rdquo;; this includes any product associated with these as well as any Service requiring our clients to sign-up such as trials or paid-for Service.</description>
+    </item>
+    
+  </channel>
+</rss>

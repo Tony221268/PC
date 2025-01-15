@@ -1,0 +1,38 @@
+{
+  "starter": {
+    "month": {
+      "dollar": "23",
+      "euro": "23",
+      "gbp": "20"
+    },
+    "year": {
+      "dollar": "230",
+      "euro": "230",
+      "gbp": "200"
+    }
+  },
+  "professional": {
+    "month": {
+      "dollar": "95",
+      "euro": "95",
+      "gbp": "80"
+    },
+    "year": {
+      "dollar": "950",
+      "euro": "950",
+      "gbp": "800"
+    }
+  },
+  "enterprise": {
+    "month": {
+      "dollar": "200",
+      "euro": "200",
+      "gbp": "230"
+    },
+    "year": {
+      "dollar": "2000",
+      "euro": "2000",
+      "gbp": "2300"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{partial "pagewrapper/navbar" .}}
+<section class="bg-success container-fluid">
+   <section class="container supportPage py-5">
+      {{partial "support/supportHeader" .}}
+      <div class="row pt-5">
+         {{partial "support/menu" .}}
+         <div class="col-12 col-xl-10 bg-white py-5 px-5 order-1 order-xl-2 supportMainWindow">
+            <h3 class="mb-3 border-bottom">{{i18n "support-help"}} <span class="text-primary">{{ .Title }}
+               </span>
+            </h3>
+            <p>{{ .Content}}</p>
+            <p><span class="text-primary">TAGS:</span> {{ range .Params.tags }}<a href="/tags/{{ . }}">{{ . }}</a>&nbsp;&nbsp;{{ end }}</p>
+         </div>
+      </div>
+   </section>
+</section>
+{{ partial "pagewrapper/footer" . }}
+{{ end }}

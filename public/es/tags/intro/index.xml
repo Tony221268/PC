@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>intro on PDCA Software</title>
+    <link>/es/tags/intro/</link>
+    <description>Recent content in intro on PDCA Software</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 17 Nov 2021 14:19:00 +0100</lastBuildDate><atom:link href="/es/tags/intro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inicio de sesión</title>
+      <link>/es/support/basics/loggingin/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/es/support/basics/loggingin/</guid>
+      <description>Cómo iniciar sesión -&gt; To login go to la página de acceso la página de acceso. Dirección de correo electrónico Introduzca su dirección de correo electrónico :
+Si te registraste, utiliza la misma dirección de correo electrónico con la que te registraste. Si un usuario administrador le añadió, utilice la dirección de correo electrónico que añadió a su cuenta. Si no recuerda la dirección de correo electrónico con la que se registró, busque en su programa de correo electrónico el mensaje de registro.</description>
+    </item>
+    
+    <item>
+      <title>Crear su primera mejora</title>
+      <link>/es/support/basics/creatingfirst/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/es/support/basics/creatingfirst/</guid>
+      <description>En pdca, una mejora es un conjunto de actividades que ayudan a mejorar la organización de alguna manera.
+Normalmente, una mejora comienza con una simple idea para mejorar algo en el lugar de trabajo, pero el ciclo &amp;ldquo;PDCA&amp;rdquo; es inherente al software. En otras palabras, pdca le ayuda a planificar, hacer, comprobar y actuar.
+La mejora es un concepto general y no se limita a un tipo de mejora, espacio de trabajo o resultado: como tal, pueden ser mejoras de cosas, procesos, personas, relaciones laborales o, de hecho, cualquier cosa que mejore la organización de alguna manera.</description>
+    </item>
+    
+    <item>
+      <title>Mi Espacio FAQ&#39;s</title>
+      <link>/es/support/accountmanagement/myaccountfaq/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/es/support/accountmanagement/myaccountfaq/</guid>
+      <description>Cancelación ¿Cómo cancelo?Cualquier usuario administrador puede ir a la sección Mi Cuenta y elegir la opción Cancelar en cualquier momento. Si me doy de baja, ¿qué pasa con las facturas?Como el pago es por adelantado, no se emitirán más facturas.Si me doy de baja, ¿qué ocurre con mis accesos y datos?Si cancelas, se desactivará todo el uso de la cuenta con la excepción de que cualquier usuario administrador podrá iniciar sesión durante los primeros 6 meses tras la cancelación.</description>
+    </item>
+    
+    <item>
+      <title>Activación de la prueba</title>
+      <link>/es/support/accountmanagement/status/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/es/support/accountmanagement/status/</guid>
+      <description>Cuentas de prueba y activas Las cuentas de prueba y activas son iguales, salvo que una cuenta activa es de pago. Siga las instrucciones siguientes para activar su cuenta de prueba.
+Una cuenta de prueba suele durar 30 días. En ese momento se volverá inactiva y no podrás utilizarla. Si eres un usuario administrador y accedes a una cuenta inactiva, se te ofrecerá la oportunidad de reactivarla.
+Cómo activar su cuenta de prueba Para activar su cuenta de prueba necesitará ser un usuario administrador.</description>
+    </item>
+    
+    <item>
+      <title>¿Qué es una mejora?</title>
+      <link>/es/support/basics/whatis/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/es/support/basics/whatis/</guid>
+      <description>En pdca, una mejora consiste en una serie lógica de pasos o un &amp;ldquo;ciclo&amp;rdquo; destinado a mejorar algo en su organización:
+Una idea o sugerencia de mejora. Un plan para poner en práctica esa idea. Un registro de que se ha implantado la mejora prevista. Una comprobación de lo ocurrido durante la implantación. Cualquier lección aprendida y, potencialmente, una nueva idea de mejora que sea continuación de la actual. Las ideas de mejora pueden ser grandes o pequeñas, teóricas o prácticas, caras o baratas.</description>
+    </item>
+    
+    <item>
+      <title>Todo sobre los usuarios</title>
+      <link>/es/support/accountmanagement/users/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/es/support/accountmanagement/users/</guid>
+      <description>General Los usuarios se cuentan por el número de usuarios que usted tiene con acceso a nuestro sistema. El primer usuario administrador se crea automáticamente cuando te registras por primera vez. Después de esto son creados sólo por usuarios administradores y los usuarios administradores pueden ver una lista de ellos en el área de Mi Cuenta.
+-&gt; Ve a Mi Cuenta y elige la opción Usuarios. Tipos de usuarios Los usuarios vienen en 3 roles, cada uno con diferentes configuraciones de seguridad por defecto:</description>
+    </item>
+    
+    <item>
+      <title>Añadir más usuarios</title>
+      <link>/es/support/basics/addingusers/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/es/support/basics/addingusers/</guid>
+      <description>Cómo añadir un usuario Para añadir un usuario necesitarás ser usuario administrador.
+-&gt; Ve al área de Mi Cuenta, elige usuarios y luego añade. Rellena los datos: el sistema enviará un correo electrónico a la dirección de correo electrónico del usuario con un enlace de registro. El nuevo usuario elegirá su contraseña durante el registro.
+Roles de usuario Los usuarios pueden ser normales, de gestión o administradores.
+Usuarios normales Los usuarios regulares pueden añadir mejoras y pueden cambiar cualquiera de los campos de las mejoras excepto aquellos restringidos a los usuarios de gestión.</description>
+    </item>
+    
+    <item>
+      <title>Gestión de mejoras</title>
+      <link>/es/support/basics/managing/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/es/support/basics/managing/</guid>
+      <description>Cómo gestionar las mejoras Si sólo quieres añadir una nueva:
+-&gt; Desde la página de inicio elige la opción añadir. Si quieres ver, editar o eliminar mejoras:
+-&gt; Desde la página de inicio, elige la opción de mejoras para ver una lista. Para ver una sola mejora, haz clic en su título.Puedes filtrar tus mejoras para encontrar una sola o un grupo de mejoras: -&gt; Desde la página de mejoras, utiliza los filtros de la parte superior de la lista y pulsa intro.</description>
+    </item>
+    
+    <item>
+      <title>Mi Espacio</title>
+      <link>/es/support/accountmanagement/myaccount/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/es/support/accountmanagement/myaccount/</guid>
+      <description>Mi Espacio es un área donde puedes gestionar:
+El estado de tu cuenta (de prueba o activa) y el nivel de precios. Usuarios La seguridad Sus métodos de pago También puede ponerse en contacto con nuestro equipo acerca de un equipo específico utilizando la función de contacto.
+-&gt; Vaya a la opción de menú Mi cuenta (arriba a la derecha) y elija cualquiera de las opciones para explorar.</description>
+    </item>
+    
+  </channel>
+</rss>

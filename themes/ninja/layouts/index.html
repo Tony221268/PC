@@ -1,0 +1,24 @@
+{{ define "main" }}
+{{partial "pagewrapper/navbar" .}}
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            {{.Content}}
+        </div>
+    </div>
+</div>
+<div class="wrap">
+    <div class="glide hero">
+        <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+                <li class="glide__slide border bg-info"><h2>Peinture 1</h2></li>
+                <li class="glide__slide border bg-warning"><h2>Peinture 2</h2></li>
+                <li class="glide__slide border bg-secondary"><h2>Peinture 3</h2></li>
+                <li class="glide__slide border bg-primary"><h2>Peinture 4</h2></li>
+            </ul>
+        </div>
+    </div>
+</div>
+{{ partial "pagewrapper/footer" . }}
+{{ end }}

@@ -1,0 +1,16 @@
+<div class="accordion my-2" id="accordionFAQ">
+  <div class="accordion-item  bg-white">
+    <h2 class="accordion-header" id="heading{{.Get `number`}}">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapse{{.Get `number`}}" aria-expanded="true" aria-controls="collapse{{.Get `number`}}">
+        {{.Get `question`}}
+      </button>
+    </h2>
+    <div id="collapse{{.Get `number`}}" class="accordion-collapse collapse" aria-labelledby="heading{{.Get `number`}}"
+      data-bs-parent="#accordionFAQ">
+      <div class="accordion-body bg-light">
+        {{.Inner}}
+      </div>
+    </div>
+  </div>
+</div>

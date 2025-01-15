@@ -1,0 +1,45 @@
+/**********************************************
+Theme Variables
+**********************************************/
+
+
+@import url(https://fonts.googleapis.com/css2?family=Tilt+Neon);
+@import url(https://fonts.cdnfonts.com/css/muli);
+$font-family-base: Muli;
+$headings-font-family :Tilt Neon;
+
+
+
+$theme-colors: (
+    "primary":    #5B0878,
+    "secondary":  #AD0FE6,
+    "light":      #f6f5f3, 
+    "dark":       #191919,
+    "success":    #FCF5FF,
+    "warning":    #900CC0,
+    "danger":     #B6285C,
+    "info":       #730A99,
+);
+
+$border-radius-lg: 4rem;
+
+
+$black: map-get($theme-colors, "black");
+$dark: map-get($theme-colors, "dark");
+$primary: map-get($theme-colors, "primary");
+$secondary: map-get($theme-colors, "secondary");
+$info: map-get($theme-colors, "info");
+$success: map-get($theme-colors, "success");
+$warning: map-get($theme-colors, "warning");
+$danger: map-get($theme-colors, "danger");
+$offshade-1:#9d959a;
+$offshade-2:#898086;
+$offshade-3:#5f585d;
+$offshade-4:#4a4548;
+$offshade-5:#353133;
+$headings-color:$white;
+$link-color: $dark;
+$nav-link-color-active: yellow;
+$nav-link-hover-color: $primary;
+$nav-tabs-link-active-color: red;
+

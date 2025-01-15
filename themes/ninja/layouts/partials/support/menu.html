@@ -1,0 +1,38 @@
+<div class="offset-3 offset-xl-0 col-6 col-xl-2 pt-3 pt-xl-0 ps-xl-0 order-2 order-xl-1 text-xl-start text-center">
+  <ul class="nav nav-tabs flex-column mb-5">
+    <li class="nav-item">
+      <a class="nav-link bg-success ps-0 border-0 pt-0" href="/support/">Support Home</a>
+    </li>
+    {{ range .Site.Menus.support }}
+    {{ if .HasChildren}}
+    <li class="nav-item">
+      <!-- Parent link and toggle wrapper -->
+      <div class="d-flex align-items-center">
+        <a class="nav-link bg-success ps-0 border-0 flex-grow-1" href="{{.URL}}">{{ .Name }}</a>
+        <a class="toggle-link ps-2" 
+           data-bs-toggle="collapse"
+           href="#collapse-{{.Name | urlize}}"
+           aria-expanded="false"
+           aria-controls="collapse-{{.Name | urlize}}">
+          <span class="menu-arrow">›</span>
+        </a>
+      </div>
+      <!-- Collapsible content -->
+      <div class="collapse" id="collapse-{{.Name | urlize}}">
+        <ul class="nav flex-column ms-3 border-start">
+          {{ range .Children }}
+          <li class="nav-item">
+            <a class="nav-link text-black border-0 ps-3" href="{{.URL}}">{{ .Name }}</a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </li>
+    {{ else }}
+    <li class="nav-item">
+      <a class="nav-link bg-success ps-0 border-0" href="{{.URL}}">{{ .Name }}</a>
+    </li>
+    {{ end }}
+    {{ end }}
+  </ul>
+</div>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Legals on PDCA Software</title>
+    <link>/es/legal/</link>
+    <description>Recent content in Legals on PDCA Software</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 17 Nov 2021 14:19:00 +0100</lastBuildDate><atom:link href="/es/legal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cookie Policy</title>
+      <link>/es/legal/cookies/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/es/legal/cookies/</guid>
+      <description>Youtube Para permitir la incrustación de vídeos de Youtube en nuestro sitio estamos obligados a permitir que Google instale cookies. Incluso su opción no-cookie instala una cookie. No hay forma de evitarlo, que sepamos, lo sentimos.
+Google Analytics Como ocurre con la mayoría de los sitios, también recopilamos datos analíticos para Google Analytics a través de Google Tag Manager.
+No instalamos ninguna otra cookie de marketing.</description>
+    </item>
+    
+    <item>
+      <title>Seguridad de los datos y RGPD</title>
+      <link>/es/legal/security/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/es/legal/security/</guid>
+      <description>Para las definiciones de las palabras utilizadas y los límites y exclusiones generales de esta política, consulte las definiciones contenidas en nuestras condiciones de uso.
+Cuando usted se registra para utilizar el Servicio que le proporcionamos, seguimos esta política de tratamiento y protección de datos. Su aceptación de esta política forma parte de nuestras condiciones de uso del Servicio. Al igual que nuestras condiciones, podemos actualizar o modificar esta política a nuestra discreción y en cualquier momento.</description>
+    </item>
+    
+    <item>
+      <title>Términos y condiciones</title>
+      <link>/es/legal/terms/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/es/legal/terms/</guid>
+      <description>A continuación se exponen los términos y condiciones de uso del &amp;ldquo;Software PDCA&amp;rdquo; disponible en https://www.pdca.software.
+Algunas definiciones En estos términos
+&amp;ldquo;Compañía&amp;rdquo;, &amp;ldquo;nosotros&amp;rdquo;, &amp;ldquo;nuestro&amp;rdquo;, o &amp;ldquo;nos&amp;rdquo; se refiere a Triplet Limited, una Compañía registrada en Inglaterra número.
+&amp;ldquo;Usted&amp;rdquo; o &amp;ldquo;su&amp;rdquo;, se refiere a las personas u organizaciones que tienen una cuenta para utilizar nuestro Servicio.
+&amp;ldquo;Servicio&amp;rdquo; hace referencia a todos aquellos Servicios a los que se accede a través del dominio de Internet &amp;ldquo;pdca.</description>
+    </item>
+    
+  </channel>
+</rss>

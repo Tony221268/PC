@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang='{{ if .Params.lang }}{{ .Params.lang }}{{else}}en{{end}}'>
+    {{ partial "pagewrapper/head" .}}
+    <body id="{{ .Params.PageID }}">
+        <div id="content" class="h-100">
+        {{ block "main" . }}
+        
+        {{ end }}
+        </div>
+    </body>
+</html>

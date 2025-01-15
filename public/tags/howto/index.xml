@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>howto on PDCA Software</title>
+    <link>/tags/howto/</link>
+    <description>Recent content in howto on PDCA Software</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 17 Nov 2021 14:19:00 +0100</lastBuildDate><atom:link href="/tags/howto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Logging In</title>
+      <link>/support/basics/loggingin/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/support/basics/loggingin/</guid>
+      <description>How to login -&gt; To login go to the login page The login screen. Email Address Enter your email address :
+If you signed up use the same email address as that you signed up with. If an admin user added you, use the email address that they added to your account. If you can&amp;rsquo;t remember the email address you signed up with, check your email programme for your sign-up email.</description>
+    </item>
+    
+    <item>
+      <title>Creating your first improvement</title>
+      <link>/support/basics/creatingfirst/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/support/basics/creatingfirst/</guid>
+      <description>In pdca, an improvement is a collection of activities that help you improve your organization in some way.
+Usually, an improvement starts with a simple idea to make something better in the workplace but the &amp;ldquo;PDCA&amp;rdquo; cycle is inherent within the software. In other words, pdca helps you plan, do, check and act.
+Improvement is a general concept and not limited to one type of improvement, workspace or outcome: as such, they can be improvements to things, processes, people, work relationships or indeed anything that improves the organization in some way.</description>
+    </item>
+    
+    <item>
+      <title>Adding More Users</title>
+      <link>/support/basics/addingusers/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/support/basics/addingusers/</guid>
+      <description>How to add a user To add a user you will need to be an admin user.
+-&gt; Go to the My Account area, choose users and then add. Fill in the details: the system will send an email to the users email address with a sign-up link. The new user will choose their password during sign-up.
+User roles Users can be regular, management or admin users.
+Regular users Regular users can add improvements and can change any of the fields in improvements except those restricted to management users.</description>
+    </item>
+    
+    <item>
+      <title>Managing Improvements</title>
+      <link>/support/basics/managing/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/support/basics/managing/</guid>
+      <description>How To Manage Improvements If you just want to add a new one:
+-&gt; From the home page choose the add option. If you want to view, edit or delete improvements:
+-&gt; From the home page choose the improvements option to see a list. To view a single improvement, click on it&#39;s title.You can filter your improvements in order to find a single or group of improvements: -&gt; From the improvements page, use the filters at the top of the list and press enter.</description>
+    </item>
+    
+  </channel>
+</rss>

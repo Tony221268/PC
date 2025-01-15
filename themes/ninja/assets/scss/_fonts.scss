@@ -1,0 +1,28 @@
+/*******s***************************************
+Fonts (only generic css, not area specific)
+**********************************************/
+.material-icons {
+    font-family: 'material-icons';
+}
+
+p.font-weight-bold {
+    font-weight: 700;
+}
+
+a,
+p,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400 !important;
+}
+
+#supportPage a,
+.brand a {
+    text-decoration: none;
+    font-weight: 700 !important;
+}

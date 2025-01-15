@@ -1,0 +1,50 @@
+<script>
+    $(document).ready(function() {
+        $('li.active').removeClass('active').removeAttr('aria-current');
+        $('a[href="' + location.pathname + '"]').closest('li').addClass('active').attr('aria-current', 'page'); 
+        $('li.active a span').addClass('text-warning');
+  });
+ </script>
+
+<nav class="navbar navbar-expand-xl navbar-light z-depth-0">
+    <div class="container">
+    
+        <a class="navbar-brand d-flex align-items-middle" href="{{with .Site.Home}}{{.RelPermalink}}{{end}}">
+            <img src="/img/logo.png" alt="The PDCA logo" height="40" class="my-auto"> <span class="ps-3 text-black" id="logo"><span class="text-primary">palette</span> couleurs</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse bg-white" id="navbarSupportedContent">
+            <ul class="ms-auto navbar-nav mb-2 mb-lg-0">
+  
+{{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+        {{ if .HasChildren }}
+                <li class="nav-item ps-5 dropdown">
+                    <a class="nav-link text-black dropdown-toggle" href="/features/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        {{ .Name }}
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                {{ range .Children }}
+                        <li>
+                            <a class="dropdown-item text-primary" href="{{ .URL }}">{{ .Name }}</a>
+                        </li>
+                {{ end }}
+                    </ul>
+                </li>
+        {{ else }}
+                <li class='nav-item ps-5'>
+                    <a class='nav-link text-black' href="{{ .URL }}">
+                        {{ .Pre }}
+                        <span>{{ .Name }}</span>
+                    </a>
+                </li>
+        {{ end }}
+    {{ end }}
+
+
+            </ul>
+        </div>
+    </div>
+</nav>

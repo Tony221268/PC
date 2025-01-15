@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{partial "pagewrapper/navbar" .}}
+<div id="freeTrial">{{partial "widgets/freetrialbutton" (dict "button" "primary" "text" "white" "lang" (i18n "language") "buttonText" (i18n "free-trial")) .}}
+</div>
+<div class="container-fluid gr-minh-50 h-100 d-flex align-items-center bg-light pb-5 z-depth-3">
+    <div class="container py-5 text-secondary text-center">
+        <div class="row py-5">
+            <div class="col">
+                <h1 class="text-primary">That's a 404 - oops</h1>
+                <p class="text-primary">A 404 means there is no page here.</p>
+                <p class="text-primary">In other words, you are probably on the right website but we have no page at this specific address. It could be that you followed an old or bad link on our website or from somewhere on the Internet. </p>
+                <p class="text-primary">Sorry about that.</p>
+                <a href="/">Got it! Just take me to the home page.</a>
+            </div>
+        </div>
+    </div>
+</div>
+{{ partial "pagewrapper/footer" . }}
+{{ end }}

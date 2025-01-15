@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on PDCA Software</title>
+    <link>/fr/</link>
+    <description>Recent content in Home on PDCA Software</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Wed, 17 Nov 2021 14:19:00 +0100</lastBuildDate><atom:link href="/fr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Se Connecter</title>
+      <link>/fr/support/basics/loggingin/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/fr/support/basics/loggingin/</guid>
+      <description>Comment se connecter -&gt; Pour vous connecter, allez sur la page de connexion L&#39;écran de connexion. Email Address Saisissez votre adresse électronique :
+Si vous vous êtes inscrit, utilisez la même adresse e-mail que celle avec laquelle vous vous êtes inscrit. Si un utilisateur administrateur vous a ajouté, utilisez l&amp;rsquo;adresse électronique qu&amp;rsquo;il a ajoutée à votre compte. Si vous ne vous souvenez pas de l&amp;rsquo;adresse e-mail avec laquelle vous vous êtes inscrit, vérifiez dans votre programme de messagerie si vous avez reçu l&amp;rsquo;e-mail d&amp;rsquo;inscription.</description>
+    </item>
+    
+    <item>
+      <title>Créer votre première amélioration</title>
+      <link>/fr/support/basics/creatingfirst/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/fr/support/basics/creatingfirst/</guid>
+      <description>Dans pdca, une amélioration est un ensemble d&amp;rsquo;activités qui vous aident à améliorer votre organisation d&amp;rsquo;une manière ou d&amp;rsquo;une autre.
+En général, une amélioration commence par une simple idée d&amp;rsquo;améliorer quelque chose sur le lieu de travail, mais le cycle &amp;ldquo;PDCA&amp;rdquo; est inhérent au logiciel. En d&amp;rsquo;autres termes, pdca vous aide à planifier, faire, vérifier et agir.
+L&amp;rsquo;amélioration est un concept général qui ne se limite pas à un seul type d&amp;rsquo;amélioration, d&amp;rsquo;espace de travail ou de résultat : il peut s&amp;rsquo;agir d&amp;rsquo;améliorations apportées aux choses, aux processus, aux personnes, aux relations de travail ou à tout ce qui améliore l&amp;rsquo;organisation d&amp;rsquo;une manière ou d&amp;rsquo;une autre.</description>
+    </item>
+    
+    <item>
+      <title>Mon espace FAQ&#39;s</title>
+      <link>/fr/support/accountmanagement/myaccountfaq/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/fr/support/accountmanagement/myaccountfaq/</guid>
+      <description>Annulation Comment annuler ?Tout utilisateur administrateur peut se rendre dans la section Mon compte et choisir l&#39;option Annuler à tout moment. Si j&amp;#39;annule, qu&amp;#39;advient-il des factures ?Comme le paiement est anticipé, aucune autre facture ne sera émise.Si je résilie, que deviennent mes accès et mes données ?Si vous résiliez, toute utilisation du compte sera désactivée, à l&#39;exception d&#39;un utilisateur administrateur qui pourra se connecter pendant les 6 premiers mois suivant la résiliation.</description>
+    </item>
+    
+    <item>
+      <title>Activation de l&#39;essai</title>
+      <link>/fr/support/accountmanagement/status/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/fr/support/accountmanagement/status/</guid>
+      <description>Essais et comptes actifs Les comptes d&amp;rsquo;essai et les comptes actifs sont identiques, sauf qu&amp;rsquo;un compte actif est payant. Suivez les instructions ci-dessous pour activer votre compte d&amp;rsquo;essai.
+Un compte d&amp;rsquo;essai dure généralement 30 jours. À l&amp;rsquo;issue de cette période, il devient inactif et vous ne pouvez plus l&amp;rsquo;utiliser. Si vous êtes un utilisateur administrateur et que vous vous connectez à un compte dormant, vous aurez la possibilité de réactiver le compte.</description>
+    </item>
+    
+    <item>
+      <title>Facturation</title>
+      <link>/fr/support/accountmanagement/billing/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/fr/support/accountmanagement/billing/</guid>
+      <description>Comment nous calculons votre facture. Dans le logiciel pdca, la facturation se fait par palier.
+A la date de facturation mensuelle (à midi GMT), nous calculons le nombre d&amp;rsquo;utilisateurs* que vous avez. Nous recoupons ensuite ce nombre avec nos 3 niveaux de prix. Nous vous enverrons alors une facture appropriée dans la devise de votre choix pour le mois suivant.
+Ainsi, si vous convertissez un compte d&amp;rsquo;essai en compte payant le 3 novembre, votre première facture sera envoyée le 3 novembre et la seconde le 3 décembre.</description>
+    </item>
+    
+    <item>
+      <title>Qu&#39;est-ce qu&#39;une amélioration?</title>
+      <link>/fr/support/basics/whatis/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/fr/support/basics/whatis/</guid>
+      <description>En pdca, une amélioration consiste en une série logique d&amp;rsquo;étapes ou un &amp;ldquo;cycle&amp;rdquo; visant à améliorer quelque chose dans votre organisation :
+Une idée ou une suggestion d&amp;rsquo;amélioration. Une idée ou une suggestion d&amp;rsquo;amélioration. Un enregistrement de la mise en œuvre de l&amp;rsquo;amélioration planifiée. Une vérification de ce qui s&amp;rsquo;est passé au cours de la mise en œuvre. Les leçons tirées de l&amp;rsquo;expérience et, éventuellement, une nouvelle idée d&amp;rsquo;amélioration qui fait suite à l&amp;rsquo;idée actuelle.</description>
+    </item>
+    
+    <item>
+      <title>Tout sur les utilisateurs</title>
+      <link>/fr/support/accountmanagement/users/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/fr/support/accountmanagement/users/</guid>
+      <description>Généralités Les utilisateurs sont comptabilisés en fonction du nombre d&amp;rsquo;utilisateurs ayant accès à notre système. Le premier utilisateur administrateur est créé automatiquement lors de l&amp;rsquo;inscription initiale. Par la suite, ils ne sont créés que par les utilisateurs administrateurs et ces derniers peuvent en voir la liste dans la section Mon compte.
+-&gt; Allez dans Mon compte et choisissez l&#39;option Utilisateurs. Types d&amp;rsquo;utilisateurs Les utilisateurs se répartissent en trois rôles, chacun ayant des paramètres de sécurité par défaut différents :</description>
+    </item>
+    
+    <item>
+      <title>Ajouter des utilisateurs</title>
+      <link>/fr/support/basics/addingusers/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/fr/support/basics/addingusers/</guid>
+      <description>Comment ajouter un utilisateur Pour ajouter un utilisateur, vous devez être un utilisateur administrateur.
+-&gt; Allez dans la zone Mon compte, choisissez Utilisateurs et ajoutez. Remplissez les détails : le système enverra un courriel à l&amp;rsquo;adresse électronique de l&amp;rsquo;utilisateur avec un lien d&amp;rsquo;inscription. Le nouvel utilisateur choisira son mot de passe lors de l&amp;rsquo;inscription.
+Rôles des utilisateurs Les utilisateurs peuvent être des utilisateurs réguliers, des gestionnaires ou des administrateurs.
+Utilisateurs réguliers Les utilisateurs réguliers peuvent ajouter des améliorations et modifier tous les champs des améliorations, à l&amp;rsquo;exception de ceux qui sont réservés aux utilisateurs gestionnaires.</description>
+    </item>
+    
+    <item>
+      <title>Gérer les améliorations</title>
+      <link>/fr/support/basics/managing/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/fr/support/basics/managing/</guid>
+      <description>Comment gérer les améliorations Si vous souhaitez simplement en ajouter une nouvelle :
+-&gt; A partir de la page d&#39;accueil, choisissez l&#39;option d&#39;ajout. Si vous souhaitez consulter, modifier ou supprimer des améliorations :
+-&gt; A partir de la page d&#39;accueil, choisissez l&#39;option &#34;améliorations&#34; pour afficher une liste. Pour visualiser une seule amélioration, cliquez sur son titre.Vous pouvez filtrer vos améliorations afin de trouver une seule amélioration ou un groupe d&amp;rsquo;améliorations : -&gt; Dans la page des améliorations, utilisez les filtres en haut de la liste et appuyez sur entrée.</description>
+    </item>
+    
+    <item>
+      <title>Conditions d&#39;utilisation</title>
+      <link>/fr/legal/terms/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/fr/legal/terms/</guid>
+      <description>Vous trouverez ci-dessous les conditions d&amp;rsquo;utilisation du &amp;ldquo;Logiciel PDCA&amp;rdquo; disponible sur https://www.pdca.software.
+Quelques définitions Dans les présentes conditions : &amp;ldquo;Société&amp;rdquo;, &amp;ldquo;nous&amp;rdquo;, &amp;ldquo;notre&amp;rdquo;, ou &amp;ldquo;nos&amp;rdquo; se réfère à Triplet Limited, une société enregistrée en Angleterre sous le numéro.
+&amp;ldquo;Vous&amp;rdquo; ou &amp;ldquo;votre&amp;rdquo; désigne les personnes ou organisations qui disposent d&amp;rsquo;un compte pour utiliser notre Service.
+&amp;ldquo;Service&amp;rdquo; désigne tous les services accessibles via le domaine Internet &amp;ldquo;pdca.software&amp;rdquo; ; cela inclut tout produit associé à ces services ainsi que tout service exigeant de nos clients qu&amp;rsquo;ils s&amp;rsquo;inscrivent, tels que les essais ou les services payants.</description>
+    </item>
+    
+    <item>
+      <title>Cookie Policy</title>
+      <link>/fr/legal/cookies/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/fr/legal/cookies/</guid>
+      <description>YouTube Pour permettre l&amp;rsquo;intégration de vidéos Youtube sur notre site, nous sommes obligés d&amp;rsquo;autoriser Google à installer des cookies. Même l&amp;rsquo;option &amp;ldquo;no-cookie&amp;rdquo; (sans cookie) crée un cookie. À notre connaissance, il n&amp;rsquo;existe aucun moyen de contourner ce problème, désolé.
+Google Analytics Comme c&amp;rsquo;est le cas pour la plupart des sites, nous collectons également des données analytiques pour Google Analytics via Google Tag manager.
+Nous n&amp;rsquo;utilisons pas d&amp;rsquo;autres cookies de marketing.</description>
+    </item>
+    
+    <item>
+      <title>Essai gratuite</title>
+      <link>/fr/trial/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/fr/trial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Home Resources</title>
+      <link>/fr/home/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/fr/home/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mon Espace</title>
+      <link>/fr/support/accountmanagement/myaccount/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/fr/support/accountmanagement/myaccount/</guid>
+      <description>Mon Espace est une zone où vous pouvez gérer :
+Le statut de votre compte (essai ou actif) et le niveau de prix. Les utilisateurs la sécurité Vos méthodes de paiement Vous pouvez également contacter notre équipe au sujet d&amp;rsquo;une équipe spécifique en utilisant la fonction de contact.
+-&gt; Allez dans l&#39;option de menu Mon compte (en haut à droite) et choisissez l&#39;une des options à explorer.</description>
+    </item>
+    
+    <item>
+      <title>Sécurité des données et RGPD</title>
+      <link>/fr/legal/security/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/fr/legal/security/</guid>
+      <description>Pour les définitions des mots utilisés dans la présente politique et les limites et exclusions générales, veuillez vous référer aux définitions contenues dans nos conditions d&amp;rsquo;utilisation.
+Lorsque vous vous inscrivez pour utiliser le service que nous fournissons, nous appliquons la présente politique de traitement et de protection des données. Votre acceptation de cette politique fait partie de nos conditions d&amp;rsquo;utilisation du service. Comme pour nos conditions, nous pouvons mettre à jour ou modifier cette politique à notre discrétion et à tout moment.</description>
+    </item>
+    
+  </channel>
+</rss>

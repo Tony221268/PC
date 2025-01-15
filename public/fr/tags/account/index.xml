@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>account on PDCA Software</title>
+    <link>/fr/tags/account/</link>
+    <description>Recent content in account on PDCA Software</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Wed, 17 Nov 2021 14:19:00 +0100</lastBuildDate><atom:link href="/fr/tags/account/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Facturation</title>
+      <link>/fr/support/accountmanagement/billing/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/fr/support/accountmanagement/billing/</guid>
+      <description>Comment nous calculons votre facture. Dans le logiciel pdca, la facturation se fait par palier.
+A la date de facturation mensuelle (à midi GMT), nous calculons le nombre d&amp;rsquo;utilisateurs* que vous avez. Nous recoupons ensuite ce nombre avec nos 3 niveaux de prix. Nous vous enverrons alors une facture appropriée dans la devise de votre choix pour le mois suivant.
+Ainsi, si vous convertissez un compte d&amp;rsquo;essai en compte payant le 3 novembre, votre première facture sera envoyée le 3 novembre et la seconde le 3 décembre.</description>
+    </item>
+    
+    <item>
+      <title>Tout sur les utilisateurs</title>
+      <link>/fr/support/accountmanagement/users/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/fr/support/accountmanagement/users/</guid>
+      <description>Généralités Les utilisateurs sont comptabilisés en fonction du nombre d&amp;rsquo;utilisateurs ayant accès à notre système. Le premier utilisateur administrateur est créé automatiquement lors de l&amp;rsquo;inscription initiale. Par la suite, ils ne sont créés que par les utilisateurs administrateurs et ces derniers peuvent en voir la liste dans la section Mon compte.
+-&gt; Allez dans Mon compte et choisissez l&#39;option Utilisateurs. Types d&amp;rsquo;utilisateurs Les utilisateurs se répartissent en trois rôles, chacun ayant des paramètres de sécurité par défaut différents :</description>
+    </item>
+    
+    <item>
+      <title>Mon Espace</title>
+      <link>/fr/support/accountmanagement/myaccount/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/fr/support/accountmanagement/myaccount/</guid>
+      <description>Mon Espace est une zone où vous pouvez gérer :
+Le statut de votre compte (essai ou actif) et le niveau de prix. Les utilisateurs la sécurité Vos méthodes de paiement Vous pouvez également contacter notre équipe au sujet d&amp;rsquo;une équipe spécifique en utilisant la fonction de contact.
+-&gt; Allez dans l&#39;option de menu Mon compte (en haut à droite) et choisissez l&#39;une des options à explorer.</description>
+    </item>
+    
+  </channel>
+</rss>

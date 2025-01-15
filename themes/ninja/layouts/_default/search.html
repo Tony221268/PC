@@ -1,0 +1,31 @@
+{{ define "main" }}
+{{partial "pagewrapper/navbar" .}}
+
+<section class="bg-success container-fluid">
+  <section class="container supportPage py-5">
+    {{partial "support/supportHeader" .}}
+    <div class="row pt-5">
+      {{partial "support/menu" .}}
+      <div class="col-12 col-xl-10">
+        <h3 class="mb-3 pe-5"><span class="text-primary">{{i18n "matches"}}</span></h3>
+        <div class="py-3 gr-minh-75" id="search-results">
+          <!-- this noresult msg because we can't use i18n from external js without data export so just hide/ unhide, default is hidden -->
+          <h5 id="noresult">{{ i18n "nowords"}}</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+
+<!-- this template is sucked in by search.js and appended to the search-results div above. So editing here will adjust style -->
+<script id="search-result-template" type="text/x-js-template">
+    <div id="summary-${key}" class="p-3 mb-3 bg-white">
+      <h4><a class="text-primary" href="${link}">${title}</a></h4>
+      <p>${snippet}</p><hr/>
+      ${ isset tags }<p>Tags: <span class="text-secondary">${tags}</span></p>${ end }
+      ${ isset categories }<p>Categories: ${categories}</p>${ end }
+    </div>
+</script>
+{{ partial "pagewrapper/footer" . }}
+{{ end }}

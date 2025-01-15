@@ -1,0 +1,10 @@
+<script>
+    $(document).ready(function(){
+      $('[data-bs-toggle="popover-{{.context.Title}}"]').popover();
+    });
+</script>
+
+
+<div class="col">
+    <a tabindex="0" class="btn my-2 btn-info" role="button" href="#" data-bs-toggle="popover-{{ .context.Title }}" title="{{ .context.Title }}" data-bs-content="{{ .context.Content }}">General Page Information</a>
+</div>

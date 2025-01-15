@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Legals on PDCA Software</title>
+    <link>/fr/legal/</link>
+    <description>Recent content in Legals on PDCA Software</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Wed, 17 Nov 2021 14:19:00 +0100</lastBuildDate><atom:link href="/fr/legal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conditions d&#39;utilisation</title>
+      <link>/fr/legal/terms/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/fr/legal/terms/</guid>
+      <description>Vous trouverez ci-dessous les conditions d&amp;rsquo;utilisation du &amp;ldquo;Logiciel PDCA&amp;rdquo; disponible sur https://www.pdca.software.
+Quelques définitions Dans les présentes conditions : &amp;ldquo;Société&amp;rdquo;, &amp;ldquo;nous&amp;rdquo;, &amp;ldquo;notre&amp;rdquo;, ou &amp;ldquo;nos&amp;rdquo; se réfère à Triplet Limited, une société enregistrée en Angleterre sous le numéro.
+&amp;ldquo;Vous&amp;rdquo; ou &amp;ldquo;votre&amp;rdquo; désigne les personnes ou organisations qui disposent d&amp;rsquo;un compte pour utiliser notre Service.
+&amp;ldquo;Service&amp;rdquo; désigne tous les services accessibles via le domaine Internet &amp;ldquo;pdca.software&amp;rdquo; ; cela inclut tout produit associé à ces services ainsi que tout service exigeant de nos clients qu&amp;rsquo;ils s&amp;rsquo;inscrivent, tels que les essais ou les services payants.</description>
+    </item>
+    
+    <item>
+      <title>Cookie Policy</title>
+      <link>/fr/legal/cookies/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/fr/legal/cookies/</guid>
+      <description>YouTube Pour permettre l&amp;rsquo;intégration de vidéos Youtube sur notre site, nous sommes obligés d&amp;rsquo;autoriser Google à installer des cookies. Même l&amp;rsquo;option &amp;ldquo;no-cookie&amp;rdquo; (sans cookie) crée un cookie. À notre connaissance, il n&amp;rsquo;existe aucun moyen de contourner ce problème, désolé.
+Google Analytics Comme c&amp;rsquo;est le cas pour la plupart des sites, nous collectons également des données analytiques pour Google Analytics via Google Tag manager.
+Nous n&amp;rsquo;utilisons pas d&amp;rsquo;autres cookies de marketing.</description>
+    </item>
+    
+    <item>
+      <title>Sécurité des données et RGPD</title>
+      <link>/fr/legal/security/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/fr/legal/security/</guid>
+      <description>Pour les définitions des mots utilisés dans la présente politique et les limites et exclusions générales, veuillez vous référer aux définitions contenues dans nos conditions d&amp;rsquo;utilisation.
+Lorsque vous vous inscrivez pour utiliser le service que nous fournissons, nous appliquons la présente politique de traitement et de protection des données. Votre acceptation de cette politique fait partie de nos conditions d&amp;rsquo;utilisation du service. Comme pour nos conditions, nous pouvons mettre à jour ou modifier cette politique à notre discrétion et à tout moment.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,10 @@
+baseURL = 'https://www.nathaliepalettecouleurs.fr/'
+title = 'Palette Couleurs'
+theme = "ninja"
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+defaultContentLanguage = 'fr'
+
+[params]
+  favicon=false

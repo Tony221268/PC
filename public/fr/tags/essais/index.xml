@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>essais on PDCA Software</title>
+    <link>/fr/tags/essais/</link>
+    <description>Recent content in essais on PDCA Software</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Wed, 17 Nov 2021 14:19:00 +0100</lastBuildDate><atom:link href="/fr/tags/essais/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Activation de l&#39;essai</title>
+      <link>/fr/support/accountmanagement/status/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/fr/support/accountmanagement/status/</guid>
+      <description>Essais et comptes actifs Les comptes d&amp;rsquo;essai et les comptes actifs sont identiques, sauf qu&amp;rsquo;un compte actif est payant. Suivez les instructions ci-dessous pour activer votre compte d&amp;rsquo;essai.
+Un compte d&amp;rsquo;essai dure généralement 30 jours. À l&amp;rsquo;issue de cette période, il devient inactif et vous ne pouvez plus l&amp;rsquo;utiliser. Si vous êtes un utilisateur administrateur et que vous vous connectez à un compte dormant, vous aurez la possibilité de réactiver le compte.</description>
+    </item>
+    
+  </channel>
+</rss>

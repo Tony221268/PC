@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+	<meta name="generator" content="Hugo 0.110.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description"
+    content="" />
+  <title>Improvement Log Home</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" href="/scss/styles.min.ee15138a0510904232076f29de41530072d88716a36582d6295e117307cb6611.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+<meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+   
+   <script>(function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+      'gtm.start':
+        new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'dataLayer', 'GTM-P2J35DZ');</script>
+
+</head>
+    <body id="home">
+        <div id="content" class="h-100 bg-light">
+        
+ <script>
+    $(document).ready(function() {
+        $('li.active').removeClass('active').removeAttr('aria-current');
+        $('a[href="' + location.pathname + '"]').closest('li').addClass('active').attr('aria-current', 'page'); 
+        $('li.active a').removeClass('text-white').addClass('text-info');
+  });
+ </script>
+
+<nav class="py-2 target navbar navbar-expand-lg bg-primary text-white container-fluid d-flex align-items-center z-depth-0">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-middle" href="">
+            <img src="/img/logo.png" alt="..." height="40" class="my-auto"> <span class="ps-3 text-white" id="logo"><span class="text-info">pdca</span> software</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="ms-auto navbar-nav mb-2 mb-lg-0">
+  
+
+    
+        
+                <li class='nav-item ps-5'>
+                    <a class='nav-link text-white' href="/">
+                        
+                        <span>Quick Tour</span>
+                    </a>
+                </li>
+        
+    
+        
+                <li class='nav-item ps-5'>
+                    <a class='nav-link text-white' href="/pricing/">
+                        
+                        <span>Pricing</span>
+                    </a>
+                </li>
+        
+    
+        
+                <li class='nav-item ps-5'>
+                    <a class='nav-link text-white' href="/support/">
+                        
+                        <span>Support</span>
+                    </a>
+                </li>
+        
+    
+        
+                <li class='nav-item ps-5'>
+                    <a class='nav-link text-white' href="http://my.pdca.software/signup?language=EN">
+                        
+                        <span>Free trial</span>
+                    </a>
+                </li>
+        
+    
+                <li class="nav-item dropdown ps-5">
+                    <a class="nav-link text-white dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Language
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/" onclick='setCookie("language","EN", 30)'>EN</a></li>
+                        <li><a class="dropdown-item" href="/fr" onclick='setCookie("language","FR", 30)'>FR</a></li>
+                        <li><a class="dropdown-item" href="/es" onclick='setCookie("language","ES", 30)'>ES</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<script>
+    $(document).ready(function () {
+        var myModal = document.getElementById('myModal');
+        var myInput = document.getElementById('myInput');
+
+        myModal.addEventListener('shown.bs.modal', function () {
+            myInput.focus();
+        });
+    });
+</script>
+    <button type="button" id="freeTrial" class="btn fs-5 p-3 bg-white text-primary z-depth-3 rounded-pill font-size" data-bs-toggle="modal" data-bs-target="#myModal">
+        Free trial
+    </button>
+</section>
+
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+            <div class="card bg-primary text-white z-depth-3">
+                <div class="card-body">
+                    <div class="card-title">
+                        <h1></h1>
+                        <h2>Free for 30 days</h2>
+                        <h6>No credit card required.</h6>
+                        <h6>We will never share your email with anyone else.</h6>
+                    </div>
+                    <div class="card-text">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="clientName" placeholder="Your name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Your email">
+                                <small id="emailHelp" class="form-text text-light">We don&#39;t send marketing or sales emails</small>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">I have read and agree to the <a
+                                        href="/terms">terms and conditions</a></label>
+                            </div>
+                            <button type="submit" class="btn bg-white text-info">Sign-Up</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="filtershadow">
+    <div class="container-fluid gr-minh-50 h-100 d-flex align-items-center bg-primary pb-5 z-depth-3" id="homeStrap">
+        <div class="container py-5 text-info text-center">
+            <div class="row py-5">
+                <div class="col">
+                    <h1 class="text-white" id="home-header">Improve your business, every day and in every way.</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h5> <p>Whether you use Kaizen, want to comply with ISO 9001, TQM or just want to make your workplace better, <strong><span class="text-info">pdca</span></strong> collects your ideas and turns them into measurable improvements.</p>
+</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="container py-5 text-info">
+        <div class="row">
+            <div class="offset-lg-2 col-lg-8">
+                <div class="tutorial container text-center my-5 ratio ratio-16x9">  <iframe class="embed-responsive-item m-auto" src="https://www.youtube.com/embed/5CiSPhlN7Go" title="YouTube video player" allowfullscreen>
+                    </iframe>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="filtershadow">
+    <div class="container-fluid bg-info py-5" id="sections">
+        <div class="container py-5 my-5 d-flex align-items-middle" >
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <h3 class="text-primary display-3 pb-5">Ease of Use</h3>
+                    <h4 class="text-dark"><p>Our software is user-friendly and can be quickly set up to suit any company’s specific needs.</p>
+<p>It is compliant with various improvement methods such as Kaizen, ISO 9001, and TQM, so you can be sure that you are getting the most out of your improvement efforts.</p>
+<a href="http://my.pdca.software/signup"
+class="my-3 btn btn-primary">Free Trial</a>
+</h4> 
+                </div>
+                <div class="col-12 col-lg-5 offset-lg-1">
+                    <img class="z-depth-3 mw-100" src="/img/image.png" alt="screenshot"/> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container-fluid py-5" >
+    <div class="container">
+        <div class="row my-5 z-depth-3">
+
+
+
+
+        <div class="col-lg-6 col-12 p-5 bg-offshade-4 text-white">
+            <h4 class="font-weight-light">Data-driven Improvements</h4>
+            <p class="font-weight-light"><p>With our improvement log software, you can efficiently track and analyze performance data, empowering you to make informed decisions.</p>
+<p>You will have the ability to identify problems, make decisions and implement solutions quickly and easily.</p>
+</p>
+        </div>
+
+
+
+
+
+
+        <div class="col-lg-6 col-12 p-5 bg-offshade-2 text-white">
+            <h4 class="font-weight-light">Quick to get going</h4>
+            <p class="font-weight-light"><p>Our improvement log software is designed to help manufacturing companies quickly and easily identify areas of improvement and implement them effectively.</p>
+<p>With a PDCA-based approach, you will be able to take a deeper dive into your processes and pinpoint areas for improvement.</p>
+</p>
+        </div>
+
+
+
+
+
+
+        <div class="col-lg-6 col-12 p-5 bg-offshade-3 text-white">
+            <h4 class="font-weight-light">Smart tools</h4>
+            <p class="font-weight-light"><p>Our improvement log software will provide you with the tools you need to ensure continuous improvement.</p>
+<p>You can use the data to identify potential issues, develop solutions and track the progress of your improvement initiatives. This will help you to ensure that your processes are always running smoothly.</p>
+</p>
+        </div>
+
+
+
+
+
+
+        <div class="col-lg-6 col-12 p-5 bg-offshade-1 text-white">
+            <h4 class="font-weight-light">Reports and Dashboards</h4>
+            <p class="font-weight-light"><p>PDCA Software includes a suite of excellent dashboards and reporting tools that allow organizations to gain visibility into their continuous improvement efforts.</p>
+<p>The dashboards provide actionable insights that help to track progress against goals and provide an overview of the effectiveness of the processes and changes being implemented.</p>
+</p>
+        </div>
+
+
+
+
+
+</div>
+</div>
+</div>
+
+        </div>
+        <div class="container-fluid bg-dark py-3 filtershadow">
+    <div id="footer" class="container">
+        <div class="text-white row py-4">
+            <div class='col'>
+                <p class="pb-1 "><a class="text-white" href="/tts/">&copy; 2023 <span itemProp="name ">Triplet Limited</span></a></p>
+                <p class="pb-1 "><a class="text-white" href="/legal/terms/">Terms</a></p>
+                <p class="pb-1 "><a class="text-white" href="/legal/security/">Data security and GDPR</a></p>
+                <p class="pb-1 "><a class="text-white" href="/legal/cookies/">Cookie Policy</a></p>        
+                <p class="pt-3 pb-1 "><a class="text-secondary" href='https://www.freepik.com/free-photos-vectors/background'>Vectors: rawpixel.com - www.freepik.com</a></p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
+<script src="/js/scripts.js"></script>
+
+
+    </body>
+</html>

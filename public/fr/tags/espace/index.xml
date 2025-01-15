@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>espace on PDCA Software</title>
+    <link>/fr/tags/espace/</link>
+    <description>Recent content in espace on PDCA Software</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Wed, 17 Nov 2021 14:19:00 +0100</lastBuildDate><atom:link href="/fr/tags/espace/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mon espace FAQ&#39;s</title>
+      <link>/fr/support/accountmanagement/myaccountfaq/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      
+      <guid>/fr/support/accountmanagement/myaccountfaq/</guid>
+      <description>Annulation Comment annuler ?Tout utilisateur administrateur peut se rendre dans la section Mon compte et choisir l&#39;option Annuler à tout moment. Si j&amp;#39;annule, qu&amp;#39;advient-il des factures ?Comme le paiement est anticipé, aucune autre facture ne sera émise.Si je résilie, que deviennent mes accès et mes données ?Si vous résiliez, toute utilisation du compte sera désactivée, à l&#39;exception d&#39;un utilisateur administrateur qui pourra se connecter pendant les 6 premiers mois suivant la résiliation.</description>
+    </item>
+    
+  </channel>
+</rss>
