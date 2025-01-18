@@ -1,24 +1,32 @@
 {{ define "main" }}
 {{partial "pagewrapper/navbar" .}}
 
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col">
+            <img src="/img/painting 1.jpg" alt="Une peinture" class="img-fluid" style="max-height: 90vh; min-width: 100vw;"> 
+        </div>
+    </div>
+</div>
+
+<div class="container bg-white">
+    <div class="row my-5">
+        <div class="col my-5">
+            
             {{.Content}}
         </div>
     </div>
 </div>
-<div class="wrap">
+<!--<div class="wrap">
     <div class="glide hero">
         <div class="glide__track" data-glide-el="track">
             <ul class="glide__slides">
-                <li class="glide__slide border bg-info"><h2>Peinture 1</h2></li>
-                <li class="glide__slide border bg-warning"><h2>Peinture 2</h2></li>
-                <li class="glide__slide border bg-secondary"><h2>Peinture 3</h2></li>
-                <li class="glide__slide border bg-primary"><h2>Peinture 4</h2></li>
+                <li class="glide__slide border bg-info"><img src="/img/painting 1.jpg" alt="The PDCA logo" class="my-auto"> </li>
+                <li class="glide__slide border bg-info"><img src="/img/painting 2.jpg" alt="The PDCA logo" class="my-auto"> </li>
+                <li class="glide__slide border bg-info"><img src="/img/painting 3.jpg" alt="The PDCA logo" class="my-auto"> </li>
             </ul>
         </div>
     </div>
-</div>
+</div>-->
 {{ partial "pagewrapper/footer" . }}
 {{ end }}

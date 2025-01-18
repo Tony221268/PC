@@ -8,3 +8,31 @@ defaultContentLanguage = 'fr'
 
 [params]
   favicon=false
+
+
+[menu]
+[[menu.main]]
+  name = 'Accueil'
+  url = '/'
+  weight = 10
+[[menu.main]]
+  name = 'Peintures'
+  url = '/peintures/'
+  weight = 20
+[[menu.main]]
+  name = 'Dessins'
+  url = '/dessins/'
+  weight = 30
+[[menu.main]]
+  name = 'A Propos'
+  url = '/apropos'
+  weight = 40
+[[menu.main]]
+  name = 'Contact'
+  url = '/contact'
+  weight = 50
+
+
+
+
+
