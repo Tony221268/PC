@@ -4,9 +4,9 @@ Theme Variables
 
 
 @import url(https://fonts.googleapis.com/css2?family=Tilt+Neon);
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@105.6,200..900&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@105.6,200..900&family=Playwrite+IN:wght@100');
 $font-family-base: Inconsolata;
-$headings-font-family :Tilt Neon;
+$headings-font-family :Playwrite IN;
 
 
 
@@ -42,4 +42,5 @@ $link-color: $dark;
 $nav-link-color-active: yellow;
 $nav-link-hover-color: $primary;
 $nav-tabs-link-active-color: red;
+
 

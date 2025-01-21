@@ -32,4 +32,17 @@ ul{
   max-height: 20vh; 
   min-width: 10vw;
 }
+.carousel-loading {
+  opacity: 0;
+  transition: opacity 0.15s ease-out;
+}
+.carousel-ready {
+  opacity: 1;
+}
 
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

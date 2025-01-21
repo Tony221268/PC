@@ -20,8 +20,12 @@ defaultContentLanguage = 'fr'
   url = '/peintures/'
   weight = 20
 [[menu.main]]
-  name = 'Dessins'
-  url = '/dessins/'
+  name = 'Aquarelles'
+  url = '/aquarelles/'
+  weight = 30
+[[menu.main]]
+  name = 'Portraits'
+  url = '/portraits/'
   weight = 30
 [[menu.main]]
   name = 'A Propos'
