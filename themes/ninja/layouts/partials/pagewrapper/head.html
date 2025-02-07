@@ -45,7 +45,7 @@
 
 
   <!-- Critical CSS -->
-  {{ $styles := resources.Get "scss/styles.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+  {{ $styles := resources.Get "scss/styles.scss" | css.Sass | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
 
   <!-- Cookie consent (defer loading) -->
