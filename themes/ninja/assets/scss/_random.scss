@@ -23,15 +23,7 @@ ul{
     opacity: 1 !important;
 }
 
-.img-full{
-  max-height: 80vh; 
-  min-width: 100vw;
-}
 
-.img-thumbnail{
-  max-height: 20vh; 
-  min-width: 10vw;
-}
 .carousel-loading {
   opacity: 0;
   transition: opacity 0.15s ease-out;
@@ -45,4 +37,42 @@ ul{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.carousel-inner {
+  background-color: #fff;  /* Or any color you prefer for the empty space */
+  height: 80vh;  /* Takes up 90% of the viewport height */
+}
+
+.carousel-item {
+  height: 100%;
+  text-align: center;
+}
+
+.carousel-item img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  margin: auto;
+  object-fit: contain;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.thumbnail-container {
+  aspect-ratio: 1;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.thumbnail-container img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
