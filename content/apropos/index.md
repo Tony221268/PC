@@ -3,7 +3,6 @@ title: "A Propos"
 date: 2021-11-17T14:19:00+01:00
 draft: false
 ---
-## À Propos
 
 C’est tôt dans mon enfance que mon attirance pour le dessin et la peinture s‘est révélée. Durant plusieurs années je me suis consacrée à un style figuratif en utilisant essentiellement le crayon, la gouache et le pastel.
 
