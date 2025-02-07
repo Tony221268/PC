@@ -2,8 +2,7 @@
 {{partial "pagewrapper/navbar" .}}
 <!-- Button trigger modal -->
 <div class="container">
-    <div class="row">
-
+    <div class="row mt-5">
 
         {{ $dirPath := printf "themes/ninja/static/img/%s" $.Title }}
         {{ range $index, $image := (readDir $dirPath) }}

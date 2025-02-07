@@ -7,27 +7,26 @@ A kind of reset
 
 
 .body {
-    padding-top: 86px;
-    z-index: 1;
+  padding-top: 86px;
+  z-index: 1;
 }
 
-ul{
-    list-style-type: none;
+ul {
+  list-style-type: none;
 }
 
 /*PC*/
 
-
-  .btn-close {
-    background: none !important;
-    opacity: 1 !important;
+.btn-close {
+  background: none !important;
+  opacity: 1 !important;
 }
-
 
 .carousel-loading {
   opacity: 0;
   transition: opacity 0.15s ease-out;
 }
+
 .carousel-ready {
   opacity: 1;
 }
@@ -38,9 +37,12 @@ ul{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .carousel-inner {
-  background-color: #fff;  /* Or any color you prefer for the empty space */
-  height: 80vh;  /* Takes up 90% of the viewport height */
+  background-color: #fff;
+  /* Or any color you prefer for the empty space */
+  height: 80vh;
+  /* Takes up 90% of the viewport height */
 }
 
 .carousel-item {
