@@ -39,16 +39,15 @@
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@105.6,200..900&family=Playwrite+IN:wght@100..400&family=Righteous&display=swap" >
-
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons&display=block">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/css/glide.core.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/css/glide.theme.css">
+  
+  <link rel="stylesheet" href="/css/bootstrap-icons.min.css">
 
 
 
   
   
-  <link rel="stylesheet" href="/scss/styles.min.46854672a845a4614c41d5a5d4994710de256a5b447a1f7575c79a5b8175142d.css">
+  <link rel="stylesheet" href="/scss/styles.min.1caec1364a1b72f670415caee518e5434aae6b9c2635cf8fcfcc6ae814f4b80a.css">
 
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" media="print"
@@ -160,15 +159,13 @@
         
         
         
-        
-        
         <div class="col-md-3">
     <img src="/img/portraits/portraits-1.jpg" 
      class="img-thumbnail" 
      alt="portraits-1.jpg" 
      data-bs-toggle="modal" 
      data-bs-target="#exampleModal" 
-     data-bs-slide-to="1">
+     data-bs-slide-to="0">
 </div>
         
         
@@ -179,7 +176,7 @@
      alt="portraits-2.jpg" 
      data-bs-toggle="modal" 
      data-bs-target="#exampleModal" 
-     data-bs-slide-to="2">
+     data-bs-slide-to="1">
 </div>
         
         
@@ -199,6 +196,13 @@
                                 
                                 
                                 
+                                <button type="button" 
+        data-bs-target="#carouselExampleIndicators" 
+        data-bs-slide-to="0" 
+        class="active" aria-current="true"
+        aria-label="Slide 1">
+</button>
+                                
                                 
                                 
                                 <button type="button" 
@@ -206,15 +210,6 @@
         data-bs-slide-to="1" 
         
         aria-label="Slide 2">
-</button>
-                                
-                                
-                                
-                                <button type="button" 
-        data-bs-target="#carouselExampleIndicators" 
-        data-bs-slide-to="2" 
-        
-        aria-label="Slide 3">
 </button>
                                 
                                 
@@ -226,10 +221,8 @@
                                 
                                 
                                 
-                                
-                                
 
-<div class="carousel-item ">
+<div class="carousel-item  active ">
     <img src="/img/portraits/portraits-1.jpg" alt="portraits-1.jpg" class="border-5">
 </div>
                                 
@@ -245,13 +238,13 @@
                             </div>
                             <button class="carousel-control-prev" type="button"
                                 data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                <img src="/img/chevron-left.svg" alt="" width="100" height="100" aria-hidden="true">
+                                <i aria-hidden="true" class="fs-1 bi bi-arrow-left-circle text-black"></i>
                                 <span class="visually-hidden">Previous</span>
                             </button>
 
                             <button class="carousel-control-next" type="button"
                                 data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                <img src="/img/chevron-right.svg" alt="" width="100" height="100" aria-hidden="true">
+                                <i aria-hidden="true" class="fs-1 bi bi-arrow-right-circle text-black"></i>
                                 <span class="visually-hidden">Next</span>
                             </button>
                         </div>

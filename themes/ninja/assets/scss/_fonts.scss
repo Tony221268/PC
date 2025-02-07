@@ -2,6 +2,13 @@
 Fonts (only generic css, not area specific)
 **********************************************/
 
+
+@font-face {
+    font-family: "bootstrap-icons";
+    src: url("/icons/fonts/bootstrap-icons/bootstrap-icons.woff2") format("woff2"),
+         url("/icons/fonts/bootstrap-icons/bootstrap-icons.woff") format("woff");
+}
+
 p.font-weight-bold {
     font-weight: 700;
 }

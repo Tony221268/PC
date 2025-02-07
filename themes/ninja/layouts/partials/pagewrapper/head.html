@@ -37,10 +37,9 @@
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@105.6,200..900&family=Playwrite+IN:wght@100..400&family=Righteous&display=swap" >
-
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons&display=block">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/css/glide.core.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/css/glide.theme.css">
+  {{ $bootstrapIcons := resources.Get "css/bootstrap-icons.css" | minify }}
+  <link rel="stylesheet" href="{{ $bootstrapIcons.RelPermalink }}">
 
 
 
