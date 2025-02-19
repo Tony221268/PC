@@ -1,47 +1,52 @@
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         $('li.active').removeClass('active').removeAttr('aria-current');
-        $('a[href="' + location.pathname + '"]').closest('li').addClass('active').attr('aria-current', 'page'); 
+        $('a[href="' + location.pathname + '"]').closest('li').addClass('active').attr('aria-current', 'page');
         $('li.active a span').addClass('text-warning');
-  });
- </script>
+    });
+</script>
 
-<nav class="navbar navbar-expand-xl navbar-light z-depth-0">
+<nav class="navbar navbar-expand-xl bg-light z-depth-0">
     <div class="container">
-    
-        <a class="navbar-brand d-flex align-items-middle" href="{{with .Site.Home}}{{.RelPermalink}}{{end}}">
-           <span class="text-primary">palette</span> couleurs
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="navbar-brand d-flex">
+            <img src="/img/site/logo.png" class="z-depth-1 me-3 w-100 h-100 align-self-center" />
+            <div class="align-self-center"><a href="{{with .Site.Home}}{{.RelPermalink}}{{end}}" small stretched-link>Nathalie</a>
+            <p class="m-0"><span class="text-primary"> Artiste</span> Peintre</p>
+            </div>
+
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-        <div class="collapse navbar-collapse bg-white" id="navbarSupportedContent">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="ms-auto navbar-nav mb-2 mb-lg-0">
-  
-{{ $currentPage := . }}
-    {{ range .Site.Menus.main }}
-        {{ if .HasChildren }}
+
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.main }}
+                {{ if .HasChildren }}
                 <li class="nav-item ps-5 dropdown">
-                    <a class="nav-link text-black dropdown-toggle" href="/features/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link text-black dropdown-toggle" href="/features/" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
                         {{ .Name }}
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                {{ range .Children }}
+                        {{ range .Children }}
                         <li>
                             <a class="dropdown-item text-primary" href="{{ .URL }}">{{ .Name }}</a>
                         </li>
-                {{ end }}
+                        {{ end }}
                     </ul>
                 </li>
-        {{ else }}
+                {{ else }}
                 <li class='nav-item ps-5'>
                     <a class='nav-link text-black' href="{{ .URL }}">
                         {{ .Pre }}
                         <span>{{ .Name }}</span>
                     </a>
                 </li>
-        {{ end }}
-    {{ end }}
+                {{ end }}
+                {{ end }}
 
 
             </ul>

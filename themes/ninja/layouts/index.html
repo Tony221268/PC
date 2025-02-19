@@ -1,18 +1,16 @@
 {{ define "main" }}
 {{partial "pagewrapper/navbar" .}}
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col">
-            <img src="/img/siteheader.jpg" alt="Une peinture" class="img-fluid" style="max-height: 90vh; min-width: 100vw;"> 
-            <div class="centered"><h1 class="text-white">Palette Couleurs</h1></div>
-        </div>
-    </div>
+<div class="container-fluid bg-light p-0">
+
+            <img src="/img/siteheader.jpg" alt="Une peinture" class="img-fluid z-depth-1" style="max-height: 90vh; min-width: 100%;"> 
+            <div class="centered"><h1 class="text-white"></h1></div>
+
 </div>
 
-<div class="container bg-white">
+<div class="container bg-light">
     <div class="row my-5">
-        <div class="col-12 col-xl-8 my-5">
+        <div class="ps-0 col-12 col-xl-8 my-5">
             
             {{.Content}}
         </div>

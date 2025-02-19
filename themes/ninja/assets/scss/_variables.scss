@@ -4,16 +4,13 @@ Theme Variables
 
 
 @import url(https://fonts.googleapis.com/css2?family=Tilt+Neon);
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@105.6,200..900&family=Playwrite+IN:wght@100');
-$font-family-base: Inconsolata;
-$headings-font-family :Playwrite IN;
-
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+$font-family-base: Quicksand;
 
 $theme-colors: (
-    "primary":    #5B0878,
+    "primary":    #381749,
     "secondary":  #AD0FE6,
-    "light":      #f6f5f3, 
+    "light":      #f7fdef, 
     "dark":       #191919,
     "success":    #FCF5FF,
     "warning":    #900CC0,
@@ -42,5 +39,6 @@ $link-color: $dark;
 $nav-link-color-active: yellow;
 $nav-link-hover-color: $primary;
 $nav-tabs-link-active-color: red;
+
 
 

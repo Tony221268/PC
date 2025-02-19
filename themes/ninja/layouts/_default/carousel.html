@@ -22,11 +22,11 @@
             <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Nathalie</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
-                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="modal-body bg-light">
+                        <div id="carouselExampleIndicators" class="carousel slide bg-light" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 {{ $dirPath := printf "themes/ninja/static/img/%s" $.Title }}
                                 {{ range $index, $image := (readDir $dirPath) }}
@@ -38,7 +38,7 @@
                                 {{ end }}
                                 {{ end }}
                             </div>
-                            <div class="carousel-inner">
+                            <div class="carousel-inner bg-light">
                                 {{ $dirPath := printf "themes/ninja/static/img/%s" $.Title }}
                                 <!-- Debug: Print total number of images -->
                                 {{ $images := readDir $dirPath }}
@@ -68,7 +68,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fermer</button>
                     </div>
                 </div>
             </div>

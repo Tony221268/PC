@@ -47,7 +47,7 @@
 
   
   
-  <link rel="stylesheet" href="/scss/styles.min.be000391be12c8847725f9b6c114e97ba0dc9a1d26338ce216c38215c5bc4657.css">
+  <link rel="stylesheet" href="/scss/styles.min.11d0d600ba590fb82f6b8c95b92f5a83cd5a70da052105816fde9790d7f8491e.css">
 
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" media="print"
@@ -66,85 +66,89 @@
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
 
 </head>
-    <body id="">
+    <body id="" class="bg-light">
         <div id="content" class="h-100">
         
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         $('li.active').removeClass('active').removeAttr('aria-current');
-        $('a[href="' + location.pathname + '"]').closest('li').addClass('active').attr('aria-current', 'page'); 
+        $('a[href="' + location.pathname + '"]').closest('li').addClass('active').attr('aria-current', 'page');
         $('li.active a span').addClass('text-warning');
-  });
- </script>
+    });
+</script>
 
-<nav class="navbar navbar-expand-xl navbar-light z-depth-0">
+<nav class="navbar navbar-expand-xl bg-light z-depth-0">
     <div class="container">
-    
-        <a class="navbar-brand d-flex align-items-middle" href="/">
-           <span class="text-primary">palette</span> couleurs
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        <div class="collapse navbar-collapse bg-white" id="navbarSupportedContent">
-            <ul class="ms-auto navbar-nav mb-2 mb-lg-0">
-  
+        <div class="navbar-brand d-flex">
+            <img src="/img/site/logo.png" class="z-depth-1 me-3 w-100 h-100 align-self-center" />
+            <div class="align-self-center"><a href="/" small stretched-link>Nathalie</a>
+            <p class="m-0"><span class="text-primary"> Artiste</span> Peintre</p>
+            </div>
 
-    
-        
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="ms-auto navbar-nav mb-2 mb-lg-0">
+
+                
+                
+                
                 <li class='nav-item ps-5'>
                     <a class='nav-link text-black' href="/">
                         
                         <span>Accueil</span>
                     </a>
                 </li>
-        
-    
-        
+                
+                
+                
                 <li class='nav-item ps-5'>
                     <a class='nav-link text-black' href="/peintures/">
                         
                         <span>Peintures</span>
                     </a>
                 </li>
-        
-    
-        
+                
+                
+                
                 <li class='nav-item ps-5'>
                     <a class='nav-link text-black' href="/aquarelles/">
                         
                         <span>Aquarelles</span>
                     </a>
                 </li>
-        
-    
-        
+                
+                
+                
                 <li class='nav-item ps-5'>
                     <a class='nav-link text-black' href="/portraits/">
                         
                         <span>Portraits</span>
                     </a>
                 </li>
-        
-    
-        
+                
+                
+                
                 <li class='nav-item ps-5'>
                     <a class='nav-link text-black' href="/apropos">
                         
                         <span>A Propos</span>
                     </a>
                 </li>
-        
-    
-        
+                
+                
+                
                 <li class='nav-item ps-5'>
                     <a class='nav-link text-black' href="/contact">
                         
                         <span>Contact</span>
                     </a>
                 </li>
-        
-    
+                
+                
 
 
             </ul>
@@ -160,7 +164,7 @@
         
         <div class="col-md-3">
     <img src="/img/portraits/portraits-1.jpg" 
-     class="img-thumbnail z-depth-3 p-0" 
+     class="img-thumbnail z-depth-3 p-0 mb-2" 
      alt="portraits-1.jpg" 
      data-bs-toggle="modal" 
      data-bs-target="#exampleModal" 
@@ -171,7 +175,7 @@
         
         <div class="col-md-3">
     <img src="/img/portraits/portraits-2.jpg" 
-     class="img-thumbnail z-depth-3 p-0" 
+     class="img-thumbnail z-depth-3 p-0 mb-2" 
      alt="portraits-2.jpg" 
      data-bs-toggle="modal" 
      data-bs-target="#exampleModal" 
@@ -186,11 +190,11 @@
             <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Nathalie</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
-                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="modal-body bg-light">
+                        <div id="carouselExampleIndicators" class="carousel slide bg-light" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 
                                 
@@ -213,7 +217,7 @@
                                 
                                 
                             </div>
-                            <div class="carousel-inner">
+                            <div class="carousel-inner bg-light">
                                 
                                 
                                 
@@ -249,7 +253,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fermer</button>
                     </div>
                 </div>
             </div>
@@ -283,14 +287,8 @@
         <div id="footer" class="container">
             <div class="text-primary row py-4">
                 <div class='col'>
-                    <p class="pb-1 "><a class="text-primary" href="/tts/">&copy;<span id="currentYear"></span> Triplet
+                    <p class="pb-1 "><a class="text-primary" href="/tts/">&copy;<span id="currentYear"></span> Nathalie Palette Couleurs
                     </span></a></p>
-                    <p class="pb-1 "><a class="text-primary" href=""></a></p>
-                    <p class="pb-1 "><a class="text-primary" href=""></a></p>
-                    <p class="pb-1 "><a class="text-primary" href=""></a></p>
-                    <p class="pt-3 pb-1 "><a class="text-primary"
-                            href='https://www.freepik.com/free-photos-vectors/background'>Vectors: rawpixel.com -
-                            www.freepik.com</a></p>
                 </div>
             </div>
         </div>
