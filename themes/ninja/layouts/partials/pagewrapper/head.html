@@ -10,8 +10,12 @@
 
   <!-- Security headers -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="Content-Security-Policy"
-    content="default-src 'self' https:; script-src 'self' https: 'unsafe-inline' 'unsafe-eval'; style-src 'self' https: 'unsafe-inline';">
+  <meta http-equiv="Content-Security-Policy" content="
+  default-src 'self' https:;
+  script-src 'self' https: 'unsafe-inline' 'unsafe-eval';
+  style-src 'self' https: 'unsafe-inline';
+  img-src 'self' https: data:;
+">
   <meta http-equiv="Permissions-Policy" content="interest-cohort=(), geolocation=(), microphone=(), camera=()">
 
   <!-- Open Graph / Social Media Meta Tags -->

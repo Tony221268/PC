@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Palette Couleurs</title>
-    <link>http://localhost:1314/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Home on Palette Couleurs</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 17 Nov 2021 14:19:00 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1314/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Propos</title>
-      <link>http://localhost:1314/apropos/</link>
+      <link>http://localhost:1313/apropos/</link>
       <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
-      <guid>http://localhost:1314/apropos/</guid>
+      <guid>http://localhost:1313/apropos/</guid>
       <description>&lt;p&gt;C’est tôt dans mon enfance que mon attirance pour le dessin et la peinture s‘est révélée. Durant plusieurs années je me suis consacrée à un style figuratif en utilisant essentiellement le crayon, la gouache et le pastel.&lt;/p&gt;&#xA;&lt;p&gt;Ensuite, pour des raisons professionnelles et personnelles je n’ai plus rien créé.&lt;/p&gt;&#xA;&lt;p&gt;En 2020 pendant le confinement j’ai pris conscience que je devais renouer avec cet univers essentiel pour moi.&lt;/p&gt;&#xA;&lt;p&gt;J’ai suivi une formation en illustration jeunesse avec le centre de formation Skill and You ce qui m’a permis de découvrir un très beau métier, de nouvelles connaissances dans le domaine de l’art et de mieux m’y situer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>aquarelles</title>
-      <link>http://localhost:1314/aquarelles/</link>
+      <link>http://localhost:1313/aquarelles/</link>
       <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
-      <guid>http://localhost:1314/aquarelles/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1314/&#34; class=&#34;brand&#34; title=&#34;PDCA Software&#34;&gt;&lt;strong&gt;Palette Couleurs&lt;/strong&gt;&lt;/a&gt; Carousel&lt;/p&gt;</description>
+      <guid>http://localhost:1313/aquarelles/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/&#34; class=&#34;brand&#34; title=&#34;PDCA Software&#34;&gt;&lt;strong&gt;Palette Couleurs&lt;/strong&gt;&lt;/a&gt; Carousel&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>http://localhost:1314/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
-      <guid>http://localhost:1314/contact/</guid>
+      <guid>http://localhost:1313/contact/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;mailto:info@nathaliepalettecouleurs.fr&#34; title=&#34;Envoyez-moi un courriel&#34;&gt;Envoyez-moi un courriel&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>illustrations</title>
-      <link>http://localhost:1314/illustrations/</link>
+      <link>http://localhost:1313/illustrations/</link>
       <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
-      <guid>http://localhost:1314/illustrations/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1314/&#34; class=&#34;brand&#34; title=&#34;PDCA Software&#34;&gt;&lt;strong&gt;Palette Couleurs&lt;/strong&gt;&lt;/a&gt; Carousel&lt;/p&gt;</description>
+      <guid>http://localhost:1313/illustrations/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/&#34; class=&#34;brand&#34; title=&#34;PDCA Software&#34;&gt;&lt;strong&gt;Palette Couleurs&lt;/strong&gt;&lt;/a&gt; Carousel&lt;/p&gt;</description>
     </item>
     <item>
       <title>peintures</title>
-      <link>http://localhost:1314/peintures/</link>
+      <link>http://localhost:1313/peintures/</link>
       <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
-      <guid>http://localhost:1314/peintures/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1314/&#34; class=&#34;brand&#34; title=&#34;PDCA Software&#34;&gt;&lt;strong&gt;Palette Couleurs&lt;/strong&gt;&lt;/a&gt; Carousel&lt;/p&gt;</description>
+      <guid>http://localhost:1313/peintures/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/&#34; class=&#34;brand&#34; title=&#34;PDCA Software&#34;&gt;&lt;strong&gt;Palette Couleurs&lt;/strong&gt;&lt;/a&gt; Carousel&lt;/p&gt;</description>
     </item>
     <item>
       <title>portraits</title>
-      <link>http://localhost:1314/portraits/</link>
+      <link>http://localhost:1313/portraits/</link>
       <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
-      <guid>http://localhost:1314/portraits/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1314/&#34; class=&#34;brand&#34; title=&#34;PDCA Software&#34;&gt;&lt;strong&gt;Palette Couleurs&lt;/strong&gt;&lt;/a&gt; Carousel&lt;/p&gt;</description>
+      <guid>http://localhost:1313/portraits/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/&#34; class=&#34;brand&#34; title=&#34;PDCA Software&#34;&gt;&lt;strong&gt;Palette Couleurs&lt;/strong&gt;&lt;/a&gt; Carousel&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
