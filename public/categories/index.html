@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang='en'>
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1314&amp;path=livereload" data-no-instant defer></script>
   
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +21,7 @@
   <meta property="og:title" content="Categories | Improvement Log">
   <meta property="og:description"
     content="">
-  <meta property="og:url" content="http://localhost:1313/categories/">
+  <meta property="og:url" content="http://localhost:1314/categories/">
 
   
   <link rel="icon" href="/favicon.ico" sizes="any">
@@ -70,82 +70,94 @@
         <div id="content" class="h-100">
         
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         $('li.active').removeClass('active').removeAttr('aria-current');
-        $('a[href="' + location.pathname + '"]').closest('li').addClass('active').attr('aria-current', 'page'); 
+        $('a[href="' + location.pathname + '"]').closest('li').addClass('active').attr('aria-current', 'page');
         $('li.active a span').addClass('text-warning');
-  });
- </script>
+    });
+</script>
 
 <nav class="navbar navbar-expand-xl bg-light z-depth-0">
     <div class="container">
-    
-        <a class="navbar-brand d-flex align-items-middle" href="/"><img src="img/site/logo.png" class="z-depth-1 me-3"/>
-           <p>Nathalie</p> 
-           <p><span class="text-primary"> Artiste</span> Peintre</p>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="navbar-brand d-flex">
+            <img src="/img/site/logo.png" class="z-depth-1 me-3 w-100 h-100 align-self-center" />
+            <div class="align-self-center"><a href="/" small stretched-link>Nathalie</a>
+            <p class="m-0"><span class="text-primary"> Artiste</span> Peintre</p>
+            </div>
+
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
+        </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="ms-auto navbar-nav mb-2 mb-lg-0">
-  
 
-    
-        
+                
+                
+                
                 <li class='nav-item ps-5'>
                     <a class='nav-link text-black' href="/">
                         
                         <span>Accueil</span>
                     </a>
                 </li>
-        
-    
-        
+                
+                
+                
                 <li class='nav-item ps-5'>
                     <a class='nav-link text-black' href="/peintures/">
                         
                         <span>Peintures</span>
                     </a>
                 </li>
-        
-    
-        
+                
+                
+                
                 <li class='nav-item ps-5'>
                     <a class='nav-link text-black' href="/aquarelles/">
                         
                         <span>Aquarelles</span>
                     </a>
                 </li>
-        
-    
-        
+                
+                
+                
                 <li class='nav-item ps-5'>
                     <a class='nav-link text-black' href="/portraits/">
                         
                         <span>Portraits</span>
                     </a>
                 </li>
-        
-    
-        
+                
+                
+                
+                <li class='nav-item ps-5'>
+                    <a class='nav-link text-black' href="/illustrations">
+                        
+                        <span>Illustrations</span>
+                    </a>
+                </li>
+                
+                
+                
                 <li class='nav-item ps-5'>
                     <a class='nav-link text-black' href="/apropos">
                         
                         <span>A Propos</span>
                     </a>
                 </li>
-        
-    
-        
+                
+                
+                
                 <li class='nav-item ps-5'>
                     <a class='nav-link text-black' href="/contact">
                         
                         <span>Contact</span>
                     </a>
                 </li>
-        
-    
+                
+                
 
 
             </ul>
