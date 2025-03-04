@@ -5,7 +5,7 @@ draft: false
 ---
 ## Démarche Artistique
 
- Mon travail artistique est l’expression de ce que je vois, perçois, ressens et mémorise.
+Mon travail artistique est l’expression de ce que je vois, perçois, ressens et mémorise.
 
 Qu’il soit inspiré d’une image, par la nature, les êtres ou tout droit sorti de mon imagination il oscille du figuratif à l’abstrait ou est l’un ou l’autre.
 
