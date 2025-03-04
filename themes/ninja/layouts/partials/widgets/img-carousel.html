@@ -1,5 +1,7 @@
 
 
-<div class="carousel-item {{ if .isFirst }} active {{ end }}">
-    <img src="{{ .path }}{{ .title}}/{{ .name }}" alt="{{ .name }}" class="z-depth-3 rounded">
+<div class="carousel-item {{ if .isFirst }}active{{ end }}">
+    <img src="{{ .image.RelPermalink }}" 
+         class="d-block w-100" 
+         alt="{{ .image.Title }}">
 </div>

@@ -3,55 +3,42 @@
 <!-- Button trigger modal -->
 <div class="container">
     <div class="row mt-5">
-
-        {{ $dirPath := printf "themes/ninja/static/img/%s" $.Title }}
-        {{ range $index, $image := (readDir $dirPath) }}
-        {{ if (findRE "\\.(jpg|jpeg|png|gif)$" .Name 1) }}
-        {{ partial "widgets/img-thumb.html" (dict
-        "name" .Name
-        "path" "/img/"
-        "index" $index
-        "title" $.Title
-        ) }}
+        {{/* Find all image resources in the current page bundle */}}
+        {{ $images := .Resources.ByType "image" }}
+        
+        {{/* Generate thumbnails for all images */}}
+        {{ range $index, $image := $images }}
+            {{ partial "widgets/img-thumb.html" (dict 
+                "image" $image
+                "index" $index
+            ) }}
         {{ end }}
-        {{ end }}
-
 
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Nathalie</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">{{ .Title }}</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body bg-light">
                         <div id="carouselExampleIndicators" class="carousel slide bg-light" data-bs-ride="carousel">
                             <div class="carousel-indicators">
-                                {{ $dirPath := printf "themes/ninja/static/img/%s" $.Title }}
-                                {{ range $index, $image := (readDir $dirPath) }}
-                                {{ if (findRE "\\.(jpg|jpeg|png|gif)$" .Name 1) }}
-                                {{ partial "widgets/img-carousel-indicator.html" (dict
-                                "index" $index
-                                "isFirst" (eq $index 0)
-                                ) }}
-                                {{ end }}
+                                {{ range $index, $image := $images }}
+                                    {{ partial "widgets/img-carousel-indicator.html" (dict
+                                        "index" $index
+                                        "isFirst" (eq $index 0)
+                                    ) }}
                                 {{ end }}
                             </div>
                             <div class="carousel-inner bg-light">
-                                {{ $dirPath := printf "themes/ninja/static/img/%s" $.Title }}
-                                <!-- Debug: Print total number of images -->
-                                {{ $images := readDir $dirPath }}
                                 {{ range $index, $image := $images }}
-                                {{ if (findRE "\\.(jpg|jpeg|png|gif)$" .Name 1) }}
-                                {{ partial "widgets/img-carousel.html" (dict
-                                "name" .Name
-                                "path" "/img/"
-                                "isFirst" (eq $index 0)
-                                "index" $index
-                                "title" $.Title
-                                ) }}
-                                {{ end }}
+                                    {{ partial "widgets/img-carousel.html" (dict
+                                        "image" $image
+                                        "isFirst" (eq $index 0)
+                                        "index" $index
+                                    ) }}
                                 {{ end }}
                             </div>
                             <button class="carousel-control-prev" type="button"
@@ -74,7 +61,6 @@
             </div>
         </div>
     </div>
-</div>
 </div>
 
 <script>

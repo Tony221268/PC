@@ -1,8 +1,10 @@
+
 <div class="col-md-3">
-    <img src="{{ .path }}{{ .title}}/{{ .name }}" 
-     class="img-thumbnail z-depth-3 p-0 mb-2" 
-     alt="{{ .name }}" 
-     data-bs-toggle="modal" 
-     data-bs-target="#exampleModal" 
-     data-bs-slide-to="{{ .index }}">
+    {{ $thumbnail := .image.Fit "300x300" }}
+    <img src="{{ $thumbnail.RelPermalink }}" 
+         class="img-thumbnail z-depth-3 p-0 mb-2" 
+         alt="{{ .image.Title }}" 
+         data-bs-toggle="modal" 
+         data-bs-target="#exampleModal" 
+         data-bs-slide-to="{{ .index }}">
 </div>
