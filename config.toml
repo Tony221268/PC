@@ -28,10 +28,6 @@ defaultContentLanguage = 'fr'
   url = '/portraits/'
   weight = 30
 [[menu.main]]
-  name = 'Illustrations'
-  url = '/illustrations'
-  weight = 35
-[[menu.main]]
   name = 'A Propos'
   url = '/apropos'
   weight = 40
