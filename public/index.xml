@@ -23,13 +23,6 @@
       <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/&#34; class=&#34;brand&#34; title=&#34;PDCA Software&#34;&gt;&lt;strong&gt;Palette Couleurs&lt;/strong&gt;&lt;/a&gt; Carousel&lt;/p&gt;</description>
     </item>
     <item>
-      <title>aquarelles</title>
-      <link>http://localhost:1313/portraits/</link>
-      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
-      <guid>http://localhost:1313/portraits/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/&#34; class=&#34;brand&#34; title=&#34;PDCA Software&#34;&gt;&lt;strong&gt;Palette Couleurs&lt;/strong&gt;&lt;/a&gt; Carousel&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Contact</title>
       <link>http://localhost:1313/contact/</link>
       <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
@@ -41,6 +34,13 @@
       <link>http://localhost:1313/peintures/</link>
       <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
       <guid>http://localhost:1313/peintures/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/&#34; class=&#34;brand&#34; title=&#34;PDCA Software&#34;&gt;&lt;strong&gt;Palette Couleurs&lt;/strong&gt;&lt;/a&gt; Carousel&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>portraits</title>
+      <link>http://localhost:1313/portraits/</link>
+      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
+      <guid>http://localhost:1313/portraits/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/&#34; class=&#34;brand&#34; title=&#34;PDCA Software&#34;&gt;&lt;strong&gt;Palette Couleurs&lt;/strong&gt;&lt;/a&gt; Carousel&lt;/p&gt;</description>
     </item>
   </channel>
