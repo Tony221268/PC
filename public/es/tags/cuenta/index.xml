@@ -1,52 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>cuenta on PDCA Software</title>
-    <link>/es/tags/cuenta/</link>
-    <description>Recent content in cuenta on PDCA Software</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es</language>
-    <lastBuildDate>Wed, 17 Nov 2021 14:19:00 +0100</lastBuildDate><atom:link href="/es/tags/cuenta/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Mi Espacio FAQ&#39;s</title>
-      <link>/es/support/accountmanagement/myaccountfaq/</link>
-      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
-      
-      <guid>/es/support/accountmanagement/myaccountfaq/</guid>
-      <description>Cancelación ¿Cómo cancelo?Cualquier usuario administrador puede ir a la sección Mi Cuenta y elegir la opción Cancelar en cualquier momento. Si me doy de baja, ¿qué pasa con las facturas?Como el pago es por adelantado, no se emitirán más facturas.Si me doy de baja, ¿qué ocurre con mis accesos y datos?Si cancelas, se desactivará todo el uso de la cuenta con la excepción de que cualquier usuario administrador podrá iniciar sesión durante los primeros 6 meses tras la cancelación.</description>
-    </item>
-    
-    <item>
-      <title>Facturación</title>
-      <link>/es/support/accountmanagement/billing/</link>
-      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
-      
-      <guid>/es/support/accountmanagement/billing/</guid>
-      <description>Cómo calculamos su factura. En pdca software, la facturación se realiza por niveles.
-En la fecha de facturación mensual (al mediodía GMT), calculamos la cantidad de usuarios* que tiene. A continuación, cotejamos ese número con nuestros 3 niveles de precios. A continuación, le enviaremos una factura en la divisa que haya elegido para el mes siguiente.
-Por lo tanto, se te facturará por adelantado y mensualmente a partir del mismo día en que te registraste, así que si conviertes una cuenta de prueba en una de pago el 3 de noviembre, tu primera factura será el 3 de noviembre y la segunda el 3 de diciembre.</description>
-    </item>
-    
-    <item>
-      <title>Todo sobre los usuarios</title>
-      <link>/es/support/accountmanagement/users/</link>
-      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
-      
-      <guid>/es/support/accountmanagement/users/</guid>
-      <description>General Los usuarios se cuentan por el número de usuarios que usted tiene con acceso a nuestro sistema. El primer usuario administrador se crea automáticamente cuando te registras por primera vez. Después de esto son creados sólo por usuarios administradores y los usuarios administradores pueden ver una lista de ellos en el área de Mi Cuenta.
--&gt; Ve a Mi Cuenta y elige la opción Usuarios. Tipos de usuarios Los usuarios vienen en 3 roles, cada uno con diferentes configuraciones de seguridad por defecto:</description>
-    </item>
-    
-    <item>
-      <title>Mi Espacio</title>
-      <link>/es/support/accountmanagement/myaccount/</link>
-      <pubDate>Wed, 17 Nov 2021 14:19:00 +0100</pubDate>
-      
-      <guid>/es/support/accountmanagement/myaccount/</guid>
-      <description>Mi Espacio es un área donde puedes gestionar:
-El estado de tu cuenta (de prueba o activa) y el nivel de precios. Usuarios La seguridad Sus métodos de pago También puede ponerse en contacto con nuestro equipo acerca de un equipo específico utilizando la función de contacto.
--&gt; Vaya a la opción de menú Mi cuenta (arriba a la derecha) y elija cualquiera de las opciones para explorar.</description>
-    </item>
-    
-  </channel>
-</rss>
