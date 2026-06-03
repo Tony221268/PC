@@ -1,0 +1,13 @@
+# Hugo build output (regenerate with `hugo`)
+/public/
+
+# Hugo resource cache (generated image variants, etc.)
+/resources/_gen/
+
+# Hugo build lock
+/.hugo_build.lock
+
+# v2 experiment build artifacts
+/v2/public/
+/v2/resources/_gen/
+/v2/.hugo_build.lock
