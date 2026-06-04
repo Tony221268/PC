@@ -1,13 +1,11 @@
+# --- v1 (archived original site, now under /v1) ---
 # Hugo build output (regenerate with `hugo`)
-/public/
-
+/v1/public/
 # Hugo resource cache (generated image variants, etc.)
-/resources/_gen/
-
+/v1/resources/_gen/
 # Hugo build lock
-/.hugo_build.lock
+/v1/.hugo_build.lock
 
-# v2 experiment build artifacts
-/v2/public/
-/v2/resources/_gen/
-/v2/.hugo_build.lock
+# --- v2 ---
+# v2 lives in its own git repo (Tony221268/palette-couleurs-v2); not tracked here.
+/v2/
